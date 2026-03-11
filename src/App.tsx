@@ -144,14 +144,47 @@ function App() {
       <main className="mx-auto max-w-6xl px-4 py-6">
         {activeTab === "TIMETABLE" ? (
           <section>
+            <div className="mb-3 flex flex-wrap items-center gap-2 text-xs md:hidden">
+              <button
+                type="button"
+                onClick={() => setActiveTab("ALL")}
+                className={`rounded-full px-3 py-1 ${
+                  activeTab === "ALL"
+                    ? "bg-slate-900 text-white"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                全コース
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTab("PICKED")}
+                className={`rounded-full px-3 py-1 ${
+                  activeTab === "PICKED"
+                    ? "bg-waseda-primary text-white"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                Pickしたコース
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTab("TIMETABLE")}
+                className={`rounded-full px-3 py-1 ${
+                  activeTab === "TIMETABLE"
+                    ? "bg-slate-900 text-white"
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                時間割
+              </button>
+            </div>
+
             <div className="mb-4 flex items-end justify-between gap-3">
               <div>
                 <h2 className="text-base font-semibold text-slate-900">
                   Pickした科目の時間割
                 </h2>
-                <p className="mt-1 text-xs text-slate-500">
-                  同じ曜日・時限に複数Pickしている場合は重なって表示されます。
-                </p>
               </div>
               <div className="text-xs text-slate-500">
                 Pick {pickedCourses.length} 件
@@ -161,7 +194,7 @@ function App() {
             <div className="mb-4 grid gap-3 md:grid-cols-[1.2fr,2fr]">
               <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <div className="text-xs font-semibold uppercase tracking-[0.18em] text-waseda-primary">
-                  Credits
+                  合計単位
                 </div>
                 <div className="mt-2 flex items-end justify-between gap-3">
                   <div>
@@ -169,7 +202,7 @@ function App() {
                       {pickedCredits.total}
                     </div>
                     <div className="mt-1 text-xs text-slate-500">
-                      合計単位（Pick）
+                      Pickした科目の合計単位
                     </div>
                   </div>
                   <div className="rounded-2xl bg-slate-50 px-3 py-2 text-right">
@@ -187,9 +220,6 @@ function App() {
                 <div className="flex items-end justify-between gap-3">
                   <div>
                     <div className="text-xs font-semibold uppercase tracking-[0.18em] text-waseda-primary">
-                      Breakdown
-                    </div>
-                    <div className="mt-1 text-sm font-semibold text-slate-900">
                       カテゴリ別単位
                     </div>
                   </div>
@@ -198,11 +228,7 @@ function App() {
                   </div>
                 </div>
 
-                {pickedCredits.byAreaSorted.length === 0 ? (
-                  <p className="mt-3 text-sm text-slate-500">
-                    まだPickがありません。コース一覧からPickしてみてください。
-                  </p>
-                ) : (
+                {pickedCredits.byAreaSorted.length > 0 && (
                   <div className="mt-3 grid gap-2 md:grid-cols-2">
                     {pickedCredits.byAreaSorted.map(([area, credits]) => (
                       <div
@@ -235,11 +261,8 @@ function App() {
             <h2 className="text-sm font-semibold text-slate-800">
               絞り込み
             </h2>
-            <p className="mb-3 mt-1 text-xs text-slate-500">
-              キーワード＋曜日・時限・カテゴリでコースを探せます。
-            </p>
 
-            <div className="space-y-4">
+            <div className="mt-3 space-y-4">
               <div>
                 <label className="block text-xs font-medium text-slate-600">
                   キーワード
@@ -309,6 +332,26 @@ function App() {
                 <label className="block text-xs font-medium text-slate-600">
                   カテゴリ
                 </label>
+                <div className="mt-1 mb-2 flex flex-wrap gap-1">
+                  {["Advanced Courses", "Intermediate Courses"].map((label) => (
+                    <button
+                      key={label}
+                      type="button"
+                      onClick={() =>
+                        setAreaFilter(
+                          areaFilter === label ? ("ALL" as AreaFilter) : (label as AreaFilter)
+                        )
+                      }
+                      className={`rounded-full px-2.5 py-1 text-[11px] font-medium transition ${
+                        areaFilter === label
+                          ? "bg-waseda-primary text-white"
+                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
+                </div>
                 <select
                   value={areaFilter}
                   onChange={(e) => setAreaFilter(e.target.value as AreaFilter)}

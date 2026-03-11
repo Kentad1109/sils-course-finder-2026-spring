@@ -68,7 +68,7 @@ function CoursePill({ course }: { course: Course }) {
 
 export function Timetable({ courses }: { courses: Course[] }) {
   const [mobileDay, setMobileDay] = useState<DayOfWeek>("MON");
-  const [mobileView, setMobileView] = useState<"DAY" | "ALL">("DAY");
+  const [mobileView, setMobileView] = useState<"DAY" | "ALL">("ALL");
   const [openCell, setOpenCell] = useState<{
     title: string;
     courses: Course[];
@@ -107,17 +107,6 @@ export function Timetable({ courses }: { courses: Course[] }) {
             <div className="inline-flex rounded-full border border-slate-200 bg-white p-1 shadow-sm">
               <button
                 type="button"
-                onClick={() => setMobileView("DAY")}
-                className={`rounded-full px-3 py-1 text-[12px] font-semibold transition ${
-                  mobileView === "DAY"
-                    ? "bg-slate-900 text-white"
-                    : "text-slate-600"
-                }`}
-              >
-                Day
-              </button>
-              <button
-                type="button"
                 onClick={() => setMobileView("ALL")}
                 className={`rounded-full px-3 py-1 text-[12px] font-semibold transition ${
                   mobileView === "ALL"
@@ -125,7 +114,18 @@ export function Timetable({ courses }: { courses: Course[] }) {
                     : "text-slate-600"
                 }`}
               >
-                All
+                All（全体）
+              </button>
+              <button
+                type="button"
+                onClick={() => setMobileView("DAY")}
+                className={`rounded-full px-3 py-1 text-[12px] font-semibold transition ${
+                  mobileView === "DAY"
+                    ? "bg-slate-900 text-white"
+                    : "text-slate-600"
+                }`}
+              >
+                Day（日別）
               </button>
             </div>
 
