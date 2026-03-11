@@ -49,6 +49,10 @@ const DAY_LABELS: Record<Exclude<DayFilter, "ALL">, string> = {
   SAT: "Sat",
 };
 const PERIOD_OPTIONS: Array<Exclude<PeriodFilter, "ALL">> = [1, 2, 3, 4, 5, 6];
+const AREA_PRIORITY: Record<string, number> = {
+  "Advanced Courses": 0,
+  "Intermediate Courses": 1,
+};
 
 function App() {
   const [keyword, setKeyword] = useState("");
@@ -151,7 +155,14 @@ function App() {
       list = list.filter((c) => favoriteIds.includes(c.id));
     }
 
-    return list;
+    return [...list].sort((a, b) => {
+      const pa = AREA_PRIORITY[a.area] ?? 99;
+      const pb = AREA_PRIORITY[b.area] ?? 99;
+      if (pa !== pb) return pa - pb;
+      if (a.area !== b.area) return a.area.localeCompare(b.area);
+      if (a.code !== b.code) return a.code.localeCompare(b.code);
+      return a.classNumber.localeCompare(b.classNumber);
+    });
   }, [keyword, activeTab, favoriteIds, dayFilter, periodFilter, areaFilter]);
 
   const pickedCourses = useMemo(() => {
@@ -184,23 +195,25 @@ function App() {
       <button
         type="button"
         onClick={() => setActiveTab(activeTab === "TIMETABLE" ? "ALL" : "TIMETABLE")}
-        className="fixed right-4 top-4 z-40 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/95 px-3 py-2 text-xs font-semibold text-slate-700 shadow-lg backdrop-blur transition hover:bg-white hover:shadow-xl md:right-6 md:top-5 md:gap-2.5 md:px-5 md:py-3 md:text-sm"
+        className="fixed right-4 top-4 z-40 inline-flex min-h-11 items-center gap-2 rounded-full border border-slate-200 bg-white/95 px-4 py-2.5 text-sm font-semibold text-slate-700 shadow-lg backdrop-blur transition hover:bg-white hover:shadow-xl md:right-6 md:top-5 md:gap-2.5 md:px-5 md:py-3 md:text-sm"
       >
         <span className="text-sm leading-none text-waseda-primary md:text-base">▦</span>
         <span>{activeTab === "TIMETABLE" ? "コース一覧へ" : "時間割を見る"}</span>
       </button>
 
       <header className="border-b border-slate-200 bg-white/80 backdrop-blur">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+        <div className="mx-auto flex max-w-6xl items-center px-4 py-4">
           <div>
             <div className="text-[11px] font-semibold uppercase tracking-[0.2em] text-waseda-primary">
               SILS
             </div>
-            <h1 className="mt-0.5 text-xl font-semibold tracking-tight text-slate-900">
+            <h1 className="mt-0.5 text-lg font-semibold tracking-tight text-slate-900 md:text-xl">
               Course Finder 2026 Spring
             </h1>
+            <p className="mt-1 text-xs font-medium text-slate-500 md:text-sm">
+              早稲田大学 国際教養学部 2026年春学期 | 科目検索・時間割作成
+            </p>
           </div>
-          <div className="text-xs font-semibold text-slate-500">2026 Spring</div>
         </div>
       </header>
 

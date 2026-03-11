@@ -86,8 +86,8 @@ export function Timetable({ courses, onTogglePick, isPicked }: TimetableProps) {
     courses: Course[];
   } | null>(null);
 
-  const onDemand = courses.filter((c) =>
-    c.meetings.some((m) => m.modality === "ON_DEMAND" || m.period == null)
+  const onDemand = courses.filter(
+    (c) => c.meetings.length > 0 && c.meetings.every((m) => m.modality === "ON_DEMAND")
   );
 
   const byCell = useMemo(() => {
@@ -452,11 +452,8 @@ export function Timetable({ courses, onTogglePick, isPicked }: TimetableProps) {
         <div className="flex items-end justify-between gap-3">
           <div>
             <h3 className="text-sm font-semibold text-slate-900">
-              オンデマンド / 時間未確定
+              フルオンデマンド
             </h3>
-            <p className="mt-1 text-xs text-slate-500">
-              フルオンデマンド、または曜日・時限が空欄のPick科目。
-            </p>
           </div>
           <div className="text-xs text-slate-500">{onDemand.length} 件</div>
         </div>
