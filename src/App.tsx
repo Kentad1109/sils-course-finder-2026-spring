@@ -446,13 +446,31 @@ function App() {
 
                 <button
                   type="button"
-                  onClick={() => setActiveTab("PICKED")}
-                  className="group relative flex h-11 items-center justify-center gap-2 overflow-hidden rounded-xl border border-waseda-primary/30 bg-gradient-to-r from-waseda-primary/10 to-rose-50 text-sm font-semibold text-slate-800 shadow-sm transition hover:from-waseda-primary/15 hover:to-rose-100 hover:shadow"
+                  onClick={() =>
+                    setActiveTab((prev) => (prev === "PICKED" ? "ALL" : "PICKED"))
+                  }
+                  className={`group relative flex h-11 items-center justify-center gap-2 overflow-hidden rounded-xl border text-sm font-semibold shadow-sm transition ${
+                    activeTab === "PICKED"
+                      ? "border-rose-300 bg-rose-100 text-rose-800 hover:bg-rose-200"
+                      : "border-waseda-primary/30 bg-white text-slate-800 hover:bg-rose-50/60"
+                  }`}
                 >
-                  <span className="text-lg leading-none text-waseda-primary transition group-hover:scale-110">♡</span>
+                  <span
+                    className={`text-lg leading-none transition group-hover:scale-110 ${
+                      activeTab === "PICKED" ? "text-rose-700" : "text-waseda-primary"
+                    }`}
+                  >
+                    ♡
+                  </span>
                   <span>Picked</span>
                   {favoriteIds.length > 0 && (
-                    <span className="rounded-full bg-white/90 px-2 py-0.5 text-[11px] font-bold text-waseda-primary ring-1 ring-waseda-primary/20">
+                    <span
+                      className={`rounded-full px-2 py-0.5 text-[11px] font-bold ${
+                        activeTab === "PICKED"
+                          ? "bg-white text-rose-700 ring-1 ring-rose-200"
+                          : "bg-white/90 text-waseda-primary ring-1 ring-waseda-primary/20"
+                      }`}
+                    >
                       {favoriteIds.length}
                     </span>
                   )}
