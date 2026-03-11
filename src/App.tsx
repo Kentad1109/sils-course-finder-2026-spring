@@ -9,6 +9,29 @@ type DayFilter = "ALL" | "MON" | "TUE" | "WED" | "THU" | "FRI" | "SAT";
 type PeriodFilter = "ALL" | 1 | 2 | 3 | 4 | 5 | 6;
 type AreaFilter = "ALL" | string;
 
+const AREA_LABELS: Record<string, string> = {
+  "Advanced Courses": "Advanced Courses 上級科目",
+  "Advanced Seminars": "Advanced Seminars 上級演習",
+  "English III": "English III 英語III",
+  "English Plus": "English Plus (Elective) 英語V",
+  "English Support": "English Support 英語IV",
+  "First Year Seminar A": "First Year Seminar A 基礎演習A",
+  "First Year Seminar B": "First Year Seminar B 基礎演習B",
+  "Intensive Courses": "インテンシブコース Intensive Courses",
+  "Intermediate Courses": "Intermediate Courses 中級科目",
+  "Intermediate Seminar": "Intermediate Seminar 中級演習",
+  "Introductory Courses": "Introductory Courses 入門科目",
+  "Introductory Data Science": "Introductory Data Science 入門データサイエンス",
+  "Introductory Statistics A (English)": "Introductory Statistics A (English) 入門統計学A (英語)",
+  "Introductory Statistics A (Japanese)": "Introductory Statistics A (Japanese) 入門統計学A (日本語)",
+  "Introductory Statistics B (English)": "Introductory Statistics B (English) 入門統計学B (英語)",
+  "Introductory Statistics B (Japanese)": "Introductory Statistics B (Japanese) 入門統計学B (日本語)",
+  "Other Foreign Languages": "Other Foreign Languages その他外国語",
+  "Plus Courses": "プラスコース Plus Courses",
+};
+
+const getAreaLabel = (area: string) => AREA_LABELS[area] ?? area;
+
 function App() {
   const [keyword, setKeyword] = useState("");
   const [activeTab, setActiveTab] = useState<Tab>("ALL");
@@ -19,7 +42,7 @@ function App() {
 
   const areas = useMemo<AreaFilter[]>(() => {
     const unique = Array.from(new Set(courses2026Spring.map((c) => c.area)));
-    return ["ALL", ...unique];
+    return ["ALL", ...unique.reverse()];
   }, []);
 
   const filteredCourses = useMemo(() => {
@@ -83,20 +106,27 @@ function App() {
     return { total, byAreaSorted };
   }, [pickedCourses]);
 
+  const pickedGroupedByArea = useMemo(() => {
+    const map = new Map<string, typeof pickedCourses>();
+    for (const c of pickedCourses) {
+      const list = map.get(c.area) ?? [];
+      list.push(c);
+      map.set(c.area, list);
+    }
+    return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b));
+  }, [pickedCourses]);
+
   return (
     <div className="min-h-screen bg-slate-50">
       <header className="border-b border-slate-200 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
           <div>
-            <div className="text-xs font-semibold uppercase tracking-[0.2em] text-waseda-primary">
+            <div className="text-[11px] font-semibold uppercase tracking-[0.2em] text-waseda-primary">
               SILS
             </div>
-            <h1 className="text-lg font-semibold text-slate-900">
+            <h1 className="mt-0.5 text-xl font-semibold tracking-tight text-slate-900">
               Course Finder 2026 Spring
             </h1>
-            <p className="text-xs text-slate-500">
-              早稲田国際教養学部・2026春学期科目をきれいに一覧＆Pick
-            </p>
           </div>
           <nav className="hidden gap-2 text-sm md:flex">
             <button
@@ -237,7 +267,7 @@ function App() {
                       >
                         <div className="min-w-0">
                           <div className="truncate text-xs font-semibold text-slate-800">
-                            {area}
+                            {getAreaLabel(area)}
                           </div>
                           <div className="text-[11px] text-slate-500">
                             {credits} 単位
@@ -271,112 +301,77 @@ function App() {
                   type="text"
                   value={keyword}
                   onChange={(e) => setKeyword(e.target.value)}
-                  placeholder="コース名 / 教員名 / コード など"
-                  className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs shadow-sm outline-none ring-0 transition focus:border-waseda-primary focus:ring-2 focus:ring-waseda-primary/20"
+                  placeholder="科目名、教員名、科目コードで検索..."
+                  className="mt-1 w-full rounded-full border border-slate-200 bg-white px-3 py-2 text-xs shadow-sm outline-none ring-0 transition focus:border-waseda-primary focus:ring-2 focus:ring-waseda-primary/20"
                 />
               </div>
 
-              <div>
-                <span className="block text-xs font-medium text-slate-600">
-                  曜日
-                </span>
-                <div className="mt-1 flex flex-wrap gap-1">
-                  {[
-                    { key: "ALL", label: "全て" },
-                    { key: "MON", label: "Mon" },
-                    { key: "TUE", label: "Tues" },
-                    { key: "WED", label: "Wed" },
-                    { key: "THU", label: "Thur" },
-                    { key: "FRI", label: "Fri" },
-                    { key: "SAT", label: "Sat" },
-                  ].map((d) => (
-                    <button
-                      key={d.key}
-                      type="button"
-                      onClick={() => setDayFilter(d.key as DayFilter)}
-                      className={`rounded-full px-2.5 py-1 text-[11px] font-medium transition ${
-                        dayFilter === d.key
-                          ? "bg-slate-900 text-white"
-                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                      }`}
-                    >
-                      {d.label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <span className="block text-xs font-medium text-slate-600">
-                  時限
-                </span>
-                <div className="mt-1 flex flex-wrap gap-1">
-                  {["ALL", 1, 2, 3, 4, 5, 6].map((p) => (
-                    <button
-                      key={p}
-                      type="button"
-                      onClick={() => setPeriodFilter(p as PeriodFilter)}
-                      className={`rounded-full px-2.5 py-1 text-[11px] font-medium transition ${
-                        periodFilter === p
-                          ? "bg-waseda-primary text-white"
-                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                      }`}
-                    >
-                      {p === "ALL" ? "全て" : `${p}限`}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-xs font-medium text-slate-600">
-                  カテゴリ
-                </label>
-                <div className="mt-1 mb-2 flex flex-wrap gap-1">
-                  {["Advanced Courses", "Intermediate Courses"].map((label) => (
-                    <button
-                      key={label}
-                      type="button"
-                      onClick={() =>
-                        setAreaFilter(
-                          areaFilter === label ? ("ALL" as AreaFilter) : (label as AreaFilter)
-                        )
-                      }
-                      className={`rounded-full px-2.5 py-1 text-[11px] font-medium transition ${
-                        areaFilter === label
-                          ? "bg-waseda-primary text-white"
-                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                      }`}
-                    >
-                      {label}
-                    </button>
-                  ))}
-                </div>
+              <div className="grid grid-cols-2 gap-2">
                 <select
-                  value={areaFilter}
-                  onChange={(e) => setAreaFilter(e.target.value as AreaFilter)}
-                  className="mt-1 w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-xs shadow-sm outline-none ring-0 transition focus:border-waseda-primary focus:ring-2 focus:ring-waseda-primary/20"
+                  aria-label="曜日フィルター"
+                  value={dayFilter}
+                  onChange={(e) => setDayFilter(e.target.value as DayFilter)}
+                  className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-xs outline-none transition focus:border-waseda-primary focus:ring-1 focus:ring-waseda-primary/30"
                 >
-                  {areas.map((a) => (
-                    <option key={a} value={a}>
-                      {a === "ALL" ? "全て" : a}
-                    </option>
-                  ))}
+                  <option value="ALL">すべての曜日</option>
+                  <option value="MON">Mon</option>
+                  <option value="TUE">Tues</option>
+                  <option value="WED">Wed</option>
+                  <option value="THU">Thur</option>
+                  <option value="FRI">Fri</option>
+                  <option value="SAT">Sat</option>
+                </select>
+
+                <select
+                  aria-label="時限フィルター"
+                  value={periodFilter}
+                  onChange={(e) =>
+                    setPeriodFilter(
+                      (e.target.value === "ALL"
+                        ? "ALL"
+                        : Number(e.target.value)) as PeriodFilter
+                    )
+                  }
+                  className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-xs outline-none transition focus:border-waseda-primary focus:ring-1 focus:ring-waseda-primary/30"
+                >
+                  <option value="ALL">すべての時限</option>
+                  <option value="1">1限</option>
+                  <option value="2">2限</option>
+                  <option value="3">3限</option>
+                  <option value="4">4限</option>
+                  <option value="5">5限</option>
+                  <option value="6">6限</option>
                 </select>
               </div>
 
-              <button
-                type="button"
-                onClick={() => {
-                  setKeyword("");
-                  setDayFilter("ALL");
-                  setPeriodFilter("ALL");
-                  setAreaFilter("ALL");
-                }}
-                className="mt-1 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 py-1.5 text-xs font-medium text-slate-600 transition hover:bg-slate-100"
-              >
-                フィルタをクリア
-              </button>
+              <div className="grid grid-cols-2 gap-2">
+                <select
+                  aria-label="カテゴリフィルター"
+                  value={areaFilter}
+                  onChange={(e) => setAreaFilter(e.target.value as AreaFilter)}
+                  className="h-10 w-full rounded-xl border border-slate-200 bg-white px-3 text-xs outline-none transition focus:border-waseda-primary focus:ring-1 focus:ring-waseda-primary/30"
+                >
+                  {areas.map((a) => (
+                    <option key={a} value={a}>
+                      {a === "ALL" ? "すべてのカテゴリ" : getAreaLabel(a)}
+                    </option>
+                  ))}
+                </select>
+
+                <button
+                  type="button"
+                  onClick={() => setActiveTab("PICKED")}
+                  className="flex h-10 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 transition hover:bg-slate-50"
+                >
+                  <span className="text-base leading-none text-waseda-primary">♡</span>
+                  <span>Picked</span>
+                  {favoriteIds.length > 0 && (
+                    <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-700">
+                      {favoriteIds.length}
+                    </span>
+                  )}
+                </button>
+              </div>
             </div>
           </aside>
 
@@ -427,21 +422,48 @@ function App() {
               </div>
             </div>
 
-            <section className="grid gap-4 md:grid-cols-2">
-              {filteredCourses.map((course) => (
-                <CourseCard
-                  key={course.id}
-                  course={course}
-                  picked={isFavorite(course.id)}
-                  onTogglePick={() => toggleFavorite(course.id)}
-                />
-              ))}
-              {filteredCourses.length === 0 && (
-                <p className="text-sm text-slate-500">
-                  条件に合うコースが見つかりませんでした。
-                </p>
-              )}
-            </section>
+            {activeTab === "PICKED" ? (
+              <section className="space-y-5">
+                {pickedGroupedByArea.length === 0 && (
+                  <p className="text-sm text-slate-500">
+                    まだPickがありません。コース一覧からPickしてみてください。
+                  </p>
+                )}
+                {pickedGroupedByArea.map(([area, list]) => (
+                  <div key={area} className="space-y-2">
+                    <h3 className="text-xs font-semibold uppercase tracking-[0.16em] text-slate-500">
+                      {getAreaLabel(area)}
+                    </h3>
+                    <div className="grid gap-3 md:grid-cols-2">
+                      {list.map((course) => (
+                        <CourseCard
+                          key={course.id}
+                          course={course}
+                          picked={isFavorite(course.id)}
+                          onTogglePick={() => toggleFavorite(course.id)}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </section>
+            ) : (
+              <section className="grid gap-4 md:grid-cols-2">
+                {filteredCourses.map((course) => (
+                  <CourseCard
+                    key={course.id}
+                    course={course}
+                    picked={isFavorite(course.id)}
+                    onTogglePick={() => toggleFavorite(course.id)}
+                  />
+                ))}
+                {filteredCourses.length === 0 && (
+                  <p className="text-sm text-slate-500">
+                    条件に合うコースが見つかりませんでした。
+                  </p>
+                )}
+              </section>
+            )}
           </section>
         </div>
         )}
@@ -451,4 +473,3 @@ function App() {
 }
 
 export default App;
-
