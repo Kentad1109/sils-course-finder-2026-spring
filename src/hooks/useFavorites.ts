@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 const STORAGE_KEY = "sils-course-favorites-2026-spring";
+const STORAGE_META_KEY = "sils-course-favorites-2026-spring-meta";
 
 function safeGetLocalStorage(): Storage | null {
   if (typeof window === "undefined") return null;
@@ -13,6 +14,9 @@ function safeGetLocalStorage(): Storage | null {
 
 export function useFavorites() {
   const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
+  const [lastSavedAt, setLastSavedAt] = useState<number | null>(null);
+  const [savePulse, setSavePulse] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
 
   useEffect(() => {
     const storage = safeGetLocalStorage();
@@ -24,16 +28,31 @@ export function useFavorites() {
       if (Array.isArray(parsed)) {
         setFavoriteIds(parsed);
       }
+      const rawMeta = storage.getItem(STORAGE_META_KEY);
+      if (rawMeta) {
+        const parsedMeta = JSON.parse(rawMeta);
+        if (parsedMeta && typeof parsedMeta.lastSavedAt === "number") {
+          setLastSavedAt(parsedMeta.lastSavedAt);
+        }
+      }
     } catch {
       // ignore parse errors
     }
+    setHydrated(true);
   }, []);
 
   useEffect(() => {
+    if (!hydrated) return;
     const storage = safeGetLocalStorage();
     if (!storage) return;
+    const now = Date.now();
     storage.setItem(STORAGE_KEY, JSON.stringify(favoriteIds));
-  }, [favoriteIds]);
+    storage.setItem(STORAGE_META_KEY, JSON.stringify({ lastSavedAt: now }));
+    setLastSavedAt(now);
+    setSavePulse(true);
+    const timer = window.setTimeout(() => setSavePulse(false), 1400);
+    return () => window.clearTimeout(timer);
+  }, [favoriteIds, hydrated]);
 
   const toggleFavorite = (id: string) => {
     setFavoriteIds((prev) =>
@@ -43,6 +62,5 @@ export function useFavorites() {
 
   const isFavorite = (id: string) => favoriteIds.includes(id);
 
-  return { favoriteIds, toggleFavorite, isFavorite };
+  return { favoriteIds, toggleFavorite, isFavorite, lastSavedAt, savePulse };
 }
-

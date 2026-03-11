@@ -33,7 +33,7 @@ function areaHue(area: string) {
   const a = area.toLowerCase();
   if (a.includes("introductory")) return "bg-sky-50 border-sky-200 text-sky-900";
   if (a.includes("intermediate")) return "bg-emerald-50 border-emerald-200 text-emerald-900";
-  if (a.includes("advanced")) return "bg-violet-50 border-violet-200 text-violet-900";
+  if (a.includes("advanced")) return "bg-rose-50 border-rose-200 text-rose-900";
   if (a.includes("english")) return "bg-amber-50 border-amber-200 text-amber-900";
   if (a.includes("foreign")) return "bg-teal-50 border-teal-200 text-teal-900";
   return "bg-slate-50 border-slate-200 text-slate-900";
@@ -41,20 +41,26 @@ function areaHue(area: string) {
 
 function CoursePill({ course }: { course: Course }) {
   const cls = areaHue(course.area);
-  const teacher = course.instructors[0]?.nameEn ?? "";
+  const teachers =
+    course.instructors.length > 0
+      ? course.instructors
+          .map((i) => i.nameEn || i.nameJa || "")
+          .filter(Boolean)
+          .join(", ")
+      : "";
   return (
-    <div className={`rounded-xl border p-2 shadow-sm ${cls}`}>
+    <div className={`rounded-xl border p-2.5 shadow-sm ${cls}`}>
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0">
-          <div className="text-[11px] font-semibold text-waseda-primary">
+          <div className="text-[11px] font-semibold text-waseda-primary/90">
             {course.code}-{course.classNumber}
           </div>
-          <div className="mt-0.5 truncate text-[12px] font-semibold">
+          <div className="mt-0.5 truncate text-[12px] font-semibold leading-tight">
             {shortTitle(course.titleEn)}
           </div>
-          {teacher && (
-            <div className="mt-0.5 truncate text-[11px] opacity-80">
-              {teacher}
+          {teachers && (
+            <div className="mt-1 truncate text-[10px] opacity-80">
+              {teachers}
             </div>
           )}
         </div>
@@ -66,7 +72,13 @@ function CoursePill({ course }: { course: Course }) {
   );
 }
 
-export function Timetable({ courses }: { courses: Course[] }) {
+interface TimetableProps {
+  courses: Course[];
+  onTogglePick?: (id: string) => void;
+  isPicked?: (id: string) => boolean;
+}
+
+export function Timetable({ courses, onTogglePick, isPicked }: TimetableProps) {
   const [mobileDay, setMobileDay] = useState<DayOfWeek>("MON");
   const [mobileView, setMobileView] = useState<"DAY" | "ALL">("ALL");
   const [openCell, setOpenCell] = useState<{
@@ -92,10 +104,17 @@ export function Timetable({ courses }: { courses: Course[] }) {
     }
     return map;
   }, [courses]);
-
   const openCellSheet = (label: string, list: Course[]) => {
     if (list.length === 0) return;
     setOpenCell({ title: label, courses: list });
+  };
+  const resolveConflictKeepOnly = (keepId: string, list: Course[]) => {
+    if (!onTogglePick || !isPicked) return;
+    for (const c of list) {
+      if (c.id !== keepId && isPicked(c.id)) {
+        onTogglePick(c.id);
+      }
+    }
   };
 
   return (
@@ -287,7 +306,7 @@ export function Timetable({ courses }: { courses: Course[] }) {
 
       {/* Desktop */}
       <section className="hidden overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm md:block">
-        <div className="grid grid-cols-[120px_repeat(6,minmax(160px,1fr))] border-b border-slate-200 bg-slate-50">
+        <div className="grid grid-cols-[120px_repeat(6,minmax(160px,1fr))] border-b border-slate-200 bg-gradient-to-r from-slate-100 to-slate-50">
           <div className="px-3 py-3 text-xs font-semibold text-slate-600">
             時限 / 時刻
           </div>
@@ -322,7 +341,9 @@ export function Timetable({ courses }: { courses: Course[] }) {
                   key={key}
                   type="button"
                   onClick={() => openCellSheet(label, list)}
-                  className="relative min-h-[92px] border-r border-slate-100 p-2 text-left transition hover:bg-slate-50/60 last:border-r-0"
+                  className={`relative min-h-[102px] border-r border-slate-100 p-2 text-left transition last:border-r-0 ${
+                    list.length > 0 ? "hover:bg-slate-50/70" : "bg-slate-50/40 hover:bg-slate-50"
+                  }`}
                 >
                   {list.length > 0 && (
                     <div className="absolute right-2 top-2 rounded-full bg-slate-900/80 px-2 py-0.5 text-[10px] font-semibold text-white">
@@ -343,6 +364,13 @@ export function Timetable({ courses }: { courses: Course[] }) {
                         <CoursePill course={c} />
                       </div>
                     ))}
+                    {list.length === 0 && (
+                      <div className="flex h-full items-center justify-center">
+                        <span className="rounded-full border border-dashed border-slate-300 px-2 py-0.5 text-[10px] text-slate-400">
+                          空き
+                        </span>
+                      </div>
+                    )}
                     {list.length > 4 && (
                       <div className="absolute bottom-2 left-2 text-[11px] font-medium text-slate-500">
                         +{list.length - 4} more（クリックで表示）
@@ -393,7 +421,27 @@ export function Timetable({ courses }: { courses: Course[] }) {
 
             <div className="mt-4 grid gap-3 md:grid-cols-2">
               {openCell.courses.map((c) => (
-                <CoursePill key={c.id} course={c} />
+                <div key={c.id} className="space-y-1.5">
+                  <CoursePill course={c} />
+                  {onTogglePick && isPicked && (
+                    <div className="flex gap-1.5">
+                      <button
+                        type="button"
+                        onClick={() => resolveConflictKeepOnly(c.id, openCell.courses)}
+                        className="flex-1 rounded-lg border border-emerald-200 bg-emerald-50 px-2 py-1 text-[11px] font-semibold text-emerald-800 transition hover:bg-emerald-100"
+                      >
+                        これだけ残す
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => onTogglePick(c.id)}
+                        className="flex-1 rounded-lg border border-rose-200 bg-rose-50 px-2 py-1 text-[11px] font-semibold text-rose-700 transition hover:bg-rose-100"
+                      >
+                        Pick解除
+                      </button>
+                    </div>
+                  )}
+                </div>
               ))}
             </div>
           </div>
@@ -426,4 +474,3 @@ export function Timetable({ courses }: { courses: Course[] }) {
     </div>
   );
 }
-

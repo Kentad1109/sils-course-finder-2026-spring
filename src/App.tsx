@@ -8,6 +8,7 @@ type Tab = "ALL" | "PICKED" | "TIMETABLE";
 type DayFilter = "ALL" | "MON" | "TUE" | "WED" | "THU" | "FRI" | "SAT";
 type PeriodFilter = "ALL" | 1 | 2 | 3 | 4 | 5 | 6;
 type AreaFilter = "ALL" | string;
+type FilterChipKey = "keyword" | "day" | "period" | "area";
 
 const AREA_LABELS: Record<string, string> = {
   "Advanced Courses": "Advanced Courses 上級科目",
@@ -31,6 +32,23 @@ const AREA_LABELS: Record<string, string> = {
 };
 
 const getAreaLabel = (area: string) => AREA_LABELS[area] ?? area;
+const DAY_OPTIONS: Array<{ value: DayFilter; label: string }> = [
+  { value: "MON", label: "Mon" },
+  { value: "TUE", label: "Tues" },
+  { value: "WED", label: "Wed" },
+  { value: "THU", label: "Thur" },
+  { value: "FRI", label: "Fri" },
+  { value: "SAT", label: "Sat" },
+];
+const DAY_LABELS: Record<Exclude<DayFilter, "ALL">, string> = {
+  MON: "Mon",
+  TUE: "Tues",
+  WED: "Wed",
+  THU: "Thur",
+  FRI: "Fri",
+  SAT: "Sat",
+};
+const PERIOD_OPTIONS: Array<Exclude<PeriodFilter, "ALL">> = [1, 2, 3, 4, 5, 6];
 
 function App() {
   const [keyword, setKeyword] = useState("");
@@ -38,12 +56,57 @@ function App() {
   const [dayFilter, setDayFilter] = useState<DayFilter>("ALL");
   const [periodFilter, setPeriodFilter] = useState<PeriodFilter>("ALL");
   const [areaFilter, setAreaFilter] = useState<AreaFilter>("ALL");
-  const { favoriteIds, toggleFavorite, isFavorite } = useFavorites();
+  const { favoriteIds, toggleFavorite, isFavorite, lastSavedAt, savePulse } = useFavorites();
 
   const areas = useMemo<AreaFilter[]>(() => {
     const unique = Array.from(new Set(courses2026Spring.map((c) => c.area)));
     return ["ALL", ...unique.reverse()];
   }, []);
+  const hasActiveFilters =
+    keyword.trim() !== "" || dayFilter !== "ALL" || periodFilter !== "ALL" || areaFilter !== "ALL";
+
+  const clearAllFilters = () => {
+    setKeyword("");
+    setDayFilter("ALL");
+    setPeriodFilter("ALL");
+    setAreaFilter("ALL");
+  };
+
+  const handleKeywordChange = (value: string) => {
+    setKeyword(value);
+    if (value.trim() !== "") {
+      setDayFilter("ALL");
+      setPeriodFilter("ALL");
+      setAreaFilter("ALL");
+    }
+  };
+
+  const activeFilterChips = useMemo<Array<{ key: FilterChipKey; label: string }>>(() => {
+    const chips: Array<{ key: FilterChipKey; label: string }> = [];
+    const k = keyword.trim();
+    if (k) chips.push({ key: "keyword", label: `キーワード: ${k}` });
+    if (dayFilter !== "ALL") chips.push({ key: "day", label: `曜日: ${DAY_LABELS[dayFilter]}` });
+    if (periodFilter !== "ALL") chips.push({ key: "period", label: `時限: ${periodFilter}限` });
+    if (areaFilter !== "ALL") chips.push({ key: "area", label: `カテゴリ: ${getAreaLabel(areaFilter)}` });
+    return chips;
+  }, [keyword, dayFilter, periodFilter, areaFilter]);
+
+  const clearSingleFilter = (key: FilterChipKey) => {
+    if (key === "keyword") setKeyword("");
+    if (key === "day") setDayFilter("ALL");
+    if (key === "period") setPeriodFilter("ALL");
+    if (key === "area") setAreaFilter("ALL");
+  };
+  const favoriteSavedLabel = useMemo(() => {
+    if (!lastSavedAt) return "Pickはこの端末に自動保存されます";
+    const formatted = new Intl.DateTimeFormat("ja-JP", {
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    }).format(lastSavedAt);
+    return `保存済み ${formatted}`;
+  }, [lastSavedAt]);
 
   const filteredCourses = useMemo(() => {
     const lower = keyword.trim().toLowerCase();
@@ -118,6 +181,15 @@ function App() {
 
   return (
     <div className="min-h-screen bg-slate-50">
+      <button
+        type="button"
+        onClick={() => setActiveTab(activeTab === "TIMETABLE" ? "ALL" : "TIMETABLE")}
+        className="fixed right-4 top-4 z-40 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white/95 px-3 py-2 text-xs font-semibold text-slate-700 shadow-lg backdrop-blur transition hover:bg-white hover:shadow-xl md:right-6 md:top-5 md:gap-2.5 md:px-5 md:py-3 md:text-sm"
+      >
+        <span className="text-sm leading-none text-waseda-primary md:text-base">▦</span>
+        <span>{activeTab === "TIMETABLE" ? "コース一覧へ" : "時間割を見る"}</span>
+      </button>
+
       <header className="border-b border-slate-200 bg-white/80 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
           <div>
@@ -128,88 +200,13 @@ function App() {
               Course Finder 2026 Spring
             </h1>
           </div>
-          <nav className="hidden gap-2 text-sm md:flex">
-            <button
-              type="button"
-              onClick={() => setActiveTab("ALL")}
-              className={`rounded-full px-3 py-1 ${
-                activeTab === "ALL"
-                  ? "bg-slate-900 text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
-            >
-              全コース
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveTab("PICKED")}
-              className={`rounded-full px-3 py-1 ${
-                activeTab === "PICKED"
-                  ? "bg-waseda-primary text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
-            >
-              Pickしたコース
-              {favoriteIds.length > 0 && (
-                <span className="ml-1 inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-white/90 px-1 text-[11px] font-semibold text-waseda-primary">
-                  {favoriteIds.length}
-                </span>
-              )}
-            </button>
-            <button
-              type="button"
-              onClick={() => setActiveTab("TIMETABLE")}
-              className={`rounded-full px-3 py-1 ${
-                activeTab === "TIMETABLE"
-                  ? "bg-slate-900 text-white"
-                  : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-              }`}
-            >
-              時間割
-            </button>
-          </nav>
+          <div className="text-xs font-semibold text-slate-500">2026 Spring</div>
         </div>
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-6">
         {activeTab === "TIMETABLE" ? (
           <section>
-            <div className="mb-3 flex flex-wrap items-center gap-2 text-xs md:hidden">
-              <button
-                type="button"
-                onClick={() => setActiveTab("ALL")}
-                className={`rounded-full px-3 py-1 ${
-                  activeTab === "ALL"
-                    ? "bg-slate-900 text-white"
-                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                }`}
-              >
-                全コース
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveTab("PICKED")}
-                className={`rounded-full px-3 py-1 ${
-                  activeTab === "PICKED"
-                    ? "bg-waseda-primary text-white"
-                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                }`}
-              >
-                Pickしたコース
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveTab("TIMETABLE")}
-                className={`rounded-full px-3 py-1 ${
-                  activeTab === "TIMETABLE"
-                    ? "bg-slate-900 text-white"
-                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                }`}
-              >
-                時間割
-              </button>
-            </div>
-
             <div className="mb-4 flex items-end justify-between gap-3">
               <div>
                 <h2 className="text-base font-semibold text-slate-900">
@@ -283,7 +280,11 @@ function App() {
               </div>
             </div>
 
-            <Timetable courses={pickedCourses} />
+            <Timetable
+              courses={pickedCourses}
+              onTogglePick={toggleFavorite}
+              isPicked={isFavorite}
+            />
           </section>
         ) : (
         <div className="grid gap-6 md:grid-cols-[minmax(0,260px),1fr]">
@@ -300,13 +301,85 @@ function App() {
                 <input
                   type="text"
                   value={keyword}
-                  onChange={(e) => setKeyword(e.target.value)}
+                  onChange={(e) => handleKeywordChange(e.target.value)}
                   placeholder="科目名、教員名、科目コードで検索..."
                   className="mt-1 w-full rounded-full border border-slate-200 bg-white px-3 py-2 text-xs shadow-sm outline-none ring-0 transition focus:border-waseda-primary focus:ring-2 focus:ring-waseda-primary/20"
                 />
+                <button
+                  type="button"
+                  onClick={clearAllFilters}
+                  disabled={!hasActiveFilters}
+                  className="mt-2 text-[11px] font-semibold text-slate-500 underline decoration-slate-300 underline-offset-2 transition enabled:hover:text-slate-700 disabled:cursor-not-allowed disabled:opacity-40"
+                >
+                  すべてのフィルタを外す
+                </button>
               </div>
 
-              <div className="grid grid-cols-2 gap-2">
+              <div className="hidden space-y-3 md:block">
+                <div>
+                  <div className="mb-1 text-[11px] font-semibold text-slate-500">曜日</div>
+                  <div className="flex flex-wrap gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => setDayFilter("ALL")}
+                      className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition ${
+                        dayFilter === "ALL"
+                          ? "bg-slate-900 text-white"
+                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                      }`}
+                    >
+                      すべて
+                    </button>
+                    {DAY_OPTIONS.map((d) => (
+                      <button
+                        key={d.value}
+                        type="button"
+                        onClick={() => setDayFilter(d.value)}
+                        className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition ${
+                          dayFilter === d.value
+                            ? "bg-slate-900 text-white"
+                            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                        }`}
+                      >
+                        {d.label}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                <div>
+                  <div className="mb-1 text-[11px] font-semibold text-slate-500">時限</div>
+                  <div className="flex flex-wrap gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => setPeriodFilter("ALL")}
+                      className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition ${
+                        periodFilter === "ALL"
+                          ? "bg-slate-900 text-white"
+                          : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                      }`}
+                    >
+                      すべて
+                    </button>
+                    {PERIOD_OPTIONS.map((period) => (
+                      <button
+                        key={period}
+                        type="button"
+                        onClick={() => setPeriodFilter(period)}
+                        className={`rounded-full px-2.5 py-1 text-[11px] font-semibold transition ${
+                          periodFilter === period
+                            ? "bg-slate-900 text-white"
+                            : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                        }`}
+                      >
+                        {period}限
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-2 gap-2 md:hidden">
                 <select
                   aria-label="曜日フィルター"
                   value={dayFilter}
@@ -344,7 +417,7 @@ function App() {
                 </select>
               </div>
 
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-2 gap-2 md:grid-cols-1">
                 <select
                   aria-label="カテゴリフィルター"
                   value={areaFilter}
@@ -361,22 +434,26 @@ function App() {
                 <button
                   type="button"
                   onClick={() => setActiveTab("PICKED")}
-                  className="flex h-10 items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white text-xs font-medium text-slate-700 transition hover:bg-slate-50"
+                  className="group relative flex h-11 items-center justify-center gap-2 overflow-hidden rounded-xl border border-waseda-primary/30 bg-gradient-to-r from-waseda-primary/10 to-rose-50 text-sm font-semibold text-slate-800 shadow-sm transition hover:from-waseda-primary/15 hover:to-rose-100 hover:shadow"
                 >
-                  <span className="text-base leading-none text-waseda-primary">♡</span>
+                  <span className="text-lg leading-none text-waseda-primary transition group-hover:scale-110">♡</span>
                   <span>Picked</span>
                   {favoriteIds.length > 0 && (
-                    <span className="rounded-full bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-700">
+                    <span className="rounded-full bg-white/90 px-2 py-0.5 text-[11px] font-bold text-waseda-primary ring-1 ring-waseda-primary/20">
                       {favoriteIds.length}
                     </span>
                   )}
                 </button>
+                <div className={`text-[11px] font-medium transition ${savePulse ? "text-emerald-700" : "text-slate-500"}`}>
+                  {favoriteSavedLabel}
+                </div>
               </div>
             </div>
           </aside>
 
           <section>
             <div className="mb-3 flex items-center justify-between gap-2">
+              <div className="flex flex-wrap items-center gap-2">
               <nav className="flex gap-2 text-xs md:text-sm">
                 <button
                   type="button"
@@ -389,34 +466,23 @@ function App() {
                 >
                   全コース
                 </button>
-                <button
-                  type="button"
-                  onClick={() => setActiveTab("PICKED")}
-                  className={`rounded-full px-3 py-1 ${
-                    activeTab === "PICKED"
-                      ? "bg-waseda-primary text-white"
-                      : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                  }`}
-                >
-                  Pickしたコース
-                  {favoriteIds.length > 0 && (
-                    <span className="ml-1 inline-flex h-5 min-w-[1.25rem] items-center justify-center rounded-full bg-white/90 px-1 text-[11px] font-semibold text-waseda-primary">
-                      {favoriteIds.length}
-                    </span>
-                  )}
-                </button>
-                <button
-                  type="button"
-                  onClick={() => setActiveTab("TIMETABLE")}
-                  className={`rounded-full px-3 py-1 ${
-                    activeTab === "TIMETABLE"
-                      ? "bg-slate-900 text-white"
-                      : "bg-slate-100 text-slate-600 hover:bg-slate-200"
-                  }`}
-                >
-                  時間割
-                </button>
               </nav>
+              {activeFilterChips.length > 0 && (
+                <div className="flex flex-wrap gap-1.5">
+                  {activeFilterChips.map((chip) => (
+                    <button
+                      key={chip.key}
+                      type="button"
+                      onClick={() => clearSingleFilter(chip.key)}
+                      className="inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-2.5 py-1 text-[11px] text-slate-700 transition hover:bg-slate-50"
+                    >
+                      <span className="truncate">{chip.label}</span>
+                      <span className="text-slate-400">×</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+              </div>
               <div className="text-[11px] text-slate-500">
                 {filteredCourses.length} 件表示
               </div>
