@@ -1,0 +1,333 @@
+code,class,course title,credits,category,instructor,day,period
+CO125,01-04,"English Academic Writing, Level 1 W101SP～W104SP",2,English III,,,
+CO126,01-14,"English Academic Writing, Level 2 W201SP～W214SP",1,English III,,,
+CO127,01-18,"English Academic Writing, Level 3 W301SP～W30XSP",1,English III,,,
+CO113,01,English Support 01,2,English Support,"MUEHLEISEN, Victoria L. ミューライゼン ヴィクトリア",Mon.,３時限
+CO113,02,English Support 02,2,English Support,"MUEHLEISEN, Victoria L. ミューライゼン ヴィクトリア",Mon.,４時限
+GE162,01,English Plus (Writing to inform and persuade) 01,2,English Plus,"SNYDER, William Emmett スナイダー ウィリアム エメット",Thur.,５時限
+GE163,01,English Plus (Speech and Public Speaking) 01,2,English Plus,"AOTANI, Yuko 青谷 優子",Thur.,４時限
+GE164,01,English Plus (Leading Discussion (and presentation)) 01,2,English Plus,"FIELD, Malcolm フィールド マルコム",Fri.,２時限
+CO131,01,French I 01,2,Other Foreign Languages - Level 1,"GIUNTA, Lena ジュンタ レナ, BERTHET, Didier ベルテ ディディエ","Tues., Mon.","２時限, ５時限"
+CO131,02,French I 02,2,Other Foreign Languages - Level 1,"HATTORI, Catherine 服部 カトリーヌ",Mon.,"１時限, ２時限"
+CO132,01,German I 01,2,Other Foreign Languages - Level 1,"RUDE, Markus ルーデ マルクス, MUELENZ-GOLI, Katharina ムレンス ゴリ カタリナ","Mon., Tues.",１時限
+CO132,02,German I 02,2,Other Foreign Languages - Level 1,"NICKEL, Frank ニッケル フランク, WEICHERT, Robin Frank ヴァイヒャート ロビン フランク","Wed., Fri.",１時限
+CO133,01,Spanish I 01,2,Other Foreign Languages - Level 1,"MONTERO PEREDA, Francisco Javier モンテロ ペレダ フランシスコ ハビエル","Mon., Wed.",１時限
+CO133,02,Spanish I 02,2,Other Foreign Languages - Level 1,"MOYANO LOPEZ, Juan Carlos モヤノ ロペス フアン カルロス, FOWLER, Arthur ファウラー アーサー","Mon., Wed.",１時限
+CO133,03,Spanish I 03,2,Other Foreign Languages - Level 1,"NAKAMICHI, Shinji 仲道 慎治, SHINTANI, Roxana 新谷 ロクサナ","Mon., Fri.",１時限
+CO133,04,Spanish I 04,2,Other Foreign Languages - Level 1,"FOWLER, Arthur ファウラー アーサー","Tues., Thur.",１時限
+CO133,05,Spanish I 05,2,Other Foreign Languages - Level 1,"KAWASAKI, Kayo 河崎 佳代, SOTO MEJIA, Maria Irina ソトメヒア マリア イリナ","Mon., Fri.",１時限
+CO133,06,Spanish I 06,2,Other Foreign Languages - Level 1,"FOWLER, Arthur ファウラー アーサー, SOTO MEJIA, Maria Irina ソトメヒア マリア イリナ","Mon., Wed.",１時限
+CO134,01,Chinese I 01,2,Other Foreign Languages - Level 1,"NAGAI, Tetsuro 永井 鉄郎, IGUCHI, Hirofumi 井口 博文","Tues., Fri.",１時限
+CO134,02,Chinese I 02,2,Other Foreign Languages - Level 1,"CHEN, Tien Shi 陳 天璽, WANG, Yijen 王 怡人","Thur., Fri.","２時限, １時限"
+CO134,03,Chinese I 03 (Direct Method),2,Other Foreign Languages - Level 1,"WU, Yingru 呉 映儒, WANG, Yijen 王 怡人","Mon., Wed.",２時限
+CO135,01,Russian I 01,2,Other Foreign Languages - Level 1,"SHADRINA, Elena シャドリナ エレナ","Wed., Thur.",１時限
+CO136,01,Korean I 01,2,Other Foreign Languages - Level 1,"NAKAZATO, Hisaya 中里 久弥, KAMIYA, Niji 神谷 丹路","Mon., Wed.",２時限
+CO136,02,Korean I 02,2,Other Foreign Languages - Level 1,"KISHI, Kanako 岸 加那子, KAIMORI, Tokiko 貝森 時子","Mon., Thur.",２時限
+CO136,03,Korean I 03,2,Other Foreign Languages - Level 1,"TATSUNO, Sayo 龍野 沙代","Tues., Fri.",２時限
+CO136,04,Korean I 04,2,Other Foreign Languages - Level 1,"RHEE, Maji Christine リー マージ クリスティン, JUN, Dongwon 全 東園","Tues., Fri.",２時限
+CO141,01,French II 01,2,Other Foreign Languages - Level 2,"BERTHET, Didier ベルテ ディディエ",Wed.,"１時限, ２時限"
+CO141,02,French II 02,2,Other Foreign Languages - Level 2,"HATTORI, Catherine 服部 カトリーヌ",Tues.,"１時限, ２時限"
+CO142,01,German II 01,2,Other Foreign Languages - Level 2,"NUNOKAWA, Yasuko 布川 恭子, NICKEL, Frank ニッケル フランク","Mon., Wed.","１時限, ２時限"
+CO143,02,Spanish II 02,2,Other Foreign Languages - Level 2,"MONTERO PEREDA, Francisco Javier モンテロ ペレダ フランシスコ ハビエル","Mon., Wed.",２時限
+CO143,03,Spanish II 03,2,Other Foreign Languages - Level 2,"NAKAMICHI, Shinji 仲道 慎治, SHINTANI, Roxana 新谷 ロクサナ","Mon., Fri.",２時限
+CO143,04,Spanish II 04,2,Other Foreign Languages - Level 2,"KAWASAKI, Kayo 河崎 佳代, SOTO MEJIA, Maria Irina ソトメヒア マリア イリナ","Mon., Fri.",２時限
+CO144,01,Chinese II 01,2,Other Foreign Languages - Level 2,"WU, Yingru 呉 映儒, OH, Zuirai 王 瑞来","Mon., Thur.",１時限
+CO144,02,Chinese II 02,2,Other Foreign Languages - Level 2,"NAGAI, Tetsuro 永井 鉄郎, ARISAWA, Uenyu 張 文郁","Tues., Wed.","２時限, １時限"
+CO144,03,Chinese II 03 (Direct Method),2,Other Foreign Languages - Level 2,"IZUMI, Anna 泉 杏奈, CHEN, Tien Shi 陳 天璽","Mon., Fri.",２時限
+CO145,01,Russian II 01,2,Other Foreign Languages - Level 2,"NAKAZAWA, Tomoko 中澤 朋子","Mon., Thur.",２時限
+CO146,01,Korean II 01,2,Other Foreign Languages - Level 2,"ANN, Eunhee 安 垠姫, NAKAZATO, Hisaya 中里 久弥","Mon., Thur.",２時限
+CO146,02,Korean II 02,2,Other Foreign Languages - Level 2,"JUN, Dongwon 全 東園, NAKAZATO, Hisaya 中里 久弥","Tues., Fri.",２時限
+CO151,01,French III 01,2,Other Foreign Languages - Level 3,"HAYASHI, Yuki 林 ゆき",Tues.,"１時限, ２時限"
+CO153,01,Spanish III 01,2,Other Foreign Languages - Level 3,"FOWLER, Arthur ファウラー アーサー, SOTO MEJIA, Maria Irina ソトメヒア マリア イリナ","Mon., Wed.",２時限
+CO154,01,Chinese III 01,2,Other Foreign Languages - Level 3,"IGUCHI, Hirofumi 井口 博文","Tues., Fri.","１時限, ２時限"
+CO156,01,Korean III 01,2,Other Foreign Languages - Level 3,"NAKAZATO, Hisaya 中里 久弥, ANN, Eunhee 安 垠姫","Wed., Fri.",２時限
+CO161,01,Intensive French I 01,4,Intensive Courses,"BERTHET, Didier ベルテ ディディエ, MEHL, Frank Arnaud メール フランク アルノー","Tues., Fri.","１時限, ２時限"
+CO161,02,Intensive French I 02,4,Intensive Courses,"TOMITA, Kyoko 富田 今日子","Mon., Tues., Wed., Fri.",２時限
+CO163,01,Intensive German I 01,4,Intensive Courses,"NUNOKAWA, Yasuko 布川 恭子, SCHARLOTH, Joachim シャルロート ヨアヒム, WEICHERT, Robin Frank ヴァイヒャート ロビン フランク","Mon., Tues., Wed., Fri.","２時限, １時限"
+CO165,01,Intensive Spanish I 01,4,Intensive Courses,"HIROYASU, Yoshimi 廣康 好美, KREJCOVA, Jolana クレイチョヴァ ヨラナ","Mon., Tues., Thur., Fri.",１時限
+CO166,01,Intensive Spanish II 01,4,Intensive Courses,"HIROYASU, Yoshimi 廣康 好美, MATO, Shigeko 間藤 茂子","Mon., Tues., Thur., Fri.",２時限
+CO167,01,Intensive Chinese I 01,4,Intensive Courses,"IZUMI, Anna 泉 杏奈, IGUCHI, Hirofumi 井口 博文, WANG, Yijen 王 怡人, HAN, Yue 韓 越","Thur., Tues., Wed., Fri.","１時限, ２時限"
+CO168,01,Intensive Chinese II 01,4,Intensive Courses,"HAN, Yue 韓 越, IZUMI, Anna 泉 杏奈, CHEN, Tien Shi 陳 天璽","Fri., Thur., Wed.","２時限, ３時限"
+CO170,01,Intensive Chinese III 01,3,Intensive Courses,"ARISAWA, Uenyu 張 文郁, OH, Zuirai 王 瑞来, WANG, Yijen 王 怡人","Wed., Thur., Fri.",２時限
+CO177,01,Intensive Korean 01,3,Intensive Courses,"KIM, Shinyoung 金 信栄","Mon., Thur., Fri.",２時限
+CO191,01,German IV 01,2,Intensive Courses,"RUDE, Markus ルーデ マルクス, MUELENZ-GOLI, Katharina ムレンス ゴリ カタリナ","Mon., Tues.",２時限
+CO192,01,Spanish IV 01,2,Intensive Courses,"MOYANO LOPEZ, Juan Carlos モヤノ ロペス フアン カルロス, FOWLER, Arthur ファウラー アーサー","Mon., Wed.",２時限
+CO193,01,Spanish V 01,2,Intensive Courses,"KREJCOVA, Jolana クレイチョヴァ ヨラナ","Wed., Fri.",２時限
+CO194,01,Korean IV 01,2,Intensive Courses,"KIM, Shinyoung 金 信栄, KIM, Moran 金 牡蘭","Wed., Fri.",２時限
+CO1F6,01,Learn French with French Cinema 01,2,Plus Courses,"PAGES, Christophe Ｃ．パジェス",Fri.,１時限
+CO1F7,01,French and Diplomacy I (in French and English) 01,2,Plus Courses,"BREFUEL, Romuald ブレッフュエル ロミュアルド",Thur.,４時限
+CO1F9,01,French and International Relations I (in French and English) 01,2,Plus Courses,"BREFUEL, Romuald ブレッフュエル ロミュアルド",Thur.,３時限
+CO2F2,01,French and translation (level I) in Diplomacy 01,2,Plus Courses,"BREFUEL, Romuald ブレッフュエル ロミュアルド",Thur.,５時限
+CO2F4,01,Academic studies in France & French for Academic Purposes (in French & English) 01,2,Plus Courses,"KAWAGUCHI, Yuji 川口 裕司",Thur.,２時限
+CO2F7,01,French Plus 01,2,Plus Courses,"DETEY, Sylvain Matthieu Julien ドゥテ シルヴァン マッチュウ ジュリアン",Wed.,"４時限, ５時限"
+GEA10,01,First Year Seminar A 01,2,First Year Seminar A,"MASUKO, Mayumi 益子 真由美",Thur.,２時限
+GEA10,03,First Year Seminar A 03,2,First Year Seminar A,"KAWAGUCHI, Yuji 川口 裕司",Fri.,３時限
+GEA10,04,First Year Seminar A 04,2,First Year Seminar A,"IZUMI, Anna 泉 杏奈",Mon.,３時限
+GEA10,07,First Year Seminar A 07,2,First Year Seminar A,"OKAMOTO, Koichi 岡本 公一",Wed.,４時限
+GEA10,11,First Year Seminar A 11,2,First Year Seminar A,"TSUBOUCHI, Jun 坪内 淳",Wed.,４時限
+GEA10,14,First Year Seminar A 14,2,First Year Seminar A,"AZUMA, Rayna 東 玲奈",Tues.,２時限
+GEA10,15,First Year Seminar A 15,2,First Year Seminar A,"HIGAKI, Julie 檜垣 樹理",Wed.,３時限
+GEA10,20,First Year Seminar A 20,2,First Year Seminar A,"FUKUYAMA, Yuko 福山 佑子",Tues.,３時限
+GEA10,21,First Year Seminar A 21,2,First Year Seminar A,"KUROKAWA, Chiemi 黒川 智恵美",Mon.,３時限
+GEA10,22,First Year Seminar A 22,2,First Year Seminar A,"KUROKAWA, Chiemi 黒川 智恵美",Mon.,４時限
+GEA10,23,First Year Seminar A 23,2,First Year Seminar A,"NAKAI, Maki 中井 真木",Fri.,３時限
+GEA10,24,First Year Seminar A 24,2,First Year Seminar A,"HANZAWA, Keiko 半沢 蛍子",Thur.,４時限
+GEA10,25,First Year Seminar A 25,2,First Year Seminar A,"ISHIKAWA, Ryuichiro 石川 竜一郎",Mon.,２時限
+GEA10,27,First Year Seminar A 27,2,First Year Seminar A,"SHINO, Junnosuke 篠 潤之介",Wed.,２時限
+GEA10,28,First Year Seminar A 28,2,First Year Seminar A,"YOSHIDA, Satoshi 吉田 知史",Wed.,３時限
+GEA10,29,First Year Seminar A 29,2,First Year Seminar A,"ITO, Takeshi 伊藤 剛",Thur.,２時限
+GEA10,30,First Year Seminar A 30,2,First Year Seminar A,"AKIBA, Takeshi 秋葉 丈志",Mon.,４時限
+GEA10,31,First Year Seminar A 31,2,First Year Seminar A,"NAGASAKA, Masumi 長坂 真澄",Thur.,３時限
+GEA10,32,First Year Seminar A 32,2,First Year Seminar A,"SAKURAI, Keiko 桜井 啓子",Wed.,３時限
+GEA10,36,First Year Seminar A 36,2,First Year Seminar A,"KATAYAMA, Mikio 片山 幹生",Fri.,３時限
+GEA10,39,First Year Seminar A 39,2,First Year Seminar A,"UESUGI, Yuji 上杉 勇司",Sat.,２時限
+GEA10,40,First Year Seminar A 40,2,First Year Seminar A,"KATAOKA, Sadaharu 片岡 貞治",Tues.,３時限
+GEA20,44,First Year Seminar A 44,2,First Year Seminar A,"MASUKO, Mayumi 益子 真由美",Wed.,３時限
+GEA20,47,First Year Seminar A 47,2,First Year Seminar A,"YAZAWA, Kakeru 矢澤 翔",Tues.,２時限
+GEB10,03,First Year Seminar B 03,2,First Year Seminar B,"NAKAMURA, Chie 中村 智栄",Thur.,２時限
+GEB10,04,First Year Seminar B 04,2,First Year Seminar B,"HIRASAWA, Caroline Ｃ．ヒラサワ",Thur.,２時限
+GEB10,06,First Year Seminar B 06,2,First Year Seminar B,"MANNING, Julian マニング ジュリアン",Mon.,３時限
+GEB10,08,First Year Seminar B 08,2,First Year Seminar B,"FIELD, Malcolm フィールド マルコム",Fri.,３時限
+GEB10,10,First Year Seminar B 10,2,First Year Seminar B,"TRAN THI NGOC, Phuong ジャン ティ ノック フーン",Wed.,５時限
+GEB10,11,First Year Seminar B 11,2,First Year Seminar B,"BACON, Paul Martyn ベーコン ポール・マルティン",Tues.,３時限
+GEB10,12,First Year Seminar B 12,2,First Year Seminar B,"TRAN THI NGOC, Phuong ジャン ティ ノック フーン",Thur.,５時限
+GEB10,14,First Year Seminar B 14,2,First Year Seminar B,"YAMASHITA, Hikaru 山下 光",Wed.,４時限
+GEB10,16,First Year Seminar B 16,2,First Year Seminar B,"SIDOLI, Nathan Camillo シドリ ネイサン カミッロ",Mon.,３時限
+GEB10,18,First Year Seminar B 18,2,First Year Seminar B,"KATO, Junko 加藤 順子",Tues.,３時限
+GEB10,23,First Year Seminar B 23,2,First Year Seminar B,"TSUKADA, Yuichi 塚田 雄一",Tues.,３時限
+GEB10,25,First Year Seminar B 25,2,First Year Seminar B,"KHATIWALA, Samar Prakash カティワラ サマー プラカッシュ",Mon.,３時限
+GEB10,27,First Year Seminar B 27,2,First Year Seminar B,"MITANI, Junko 三谷 純子",Tues.,３時限
+GEB10,28,First Year Seminar B 28,2,First Year Seminar B,"MITANI, Junko 三谷 純子",Tues.,２時限
+GEB10,32,First Year Seminar B 32,2,First Year Seminar B,"SAKAMOTO, Azumi 阪本 杏実",Tues.,５時限
+GEB10,35,First Year Seminar B 35,2,First Year Seminar B,"BERNARD, Rosemarie ベルナール ローズマリー",Wed.,３時限
+GEB10,37,First Year Seminar B 37,2,First Year Seminar B,"KAMINISHI, Yuta 上西 雄太",Thur.,２時限
+GEB10,48,First Year Seminar B 48,2,First Year Seminar B,"NAMAI, Kenichi 生井 健一",Tues.,３時限
+GEB10,49,First Year Seminar B 49,2,First Year Seminar B,"MORIYAMA, Hiizu 森山 秀",Wed.,３時限
+GEB20,39,First Year Seminar B 39,2,First Year Seminar B,"MANNING, Julian マニング ジュリアン",Mon.,４時限
+GEB20,40,First Year Seminar B 40,2,First Year Seminar B,"TRAN THI NGOC, Phuong ジャン ティ ノック フーン",Wed.,３時限
+GEB20,43,First Year Seminar B 43,2,First Year Seminar B,"TRAN THI NGOC, Phuong ジャン ティ ノック フーン",Tues.,５時限
+GEB20,44,First Year Seminar B 44,2,First Year Seminar B,"DIMMER, Christian ディマ クリスティアン",Thur.,３時限
+GEB20,45,First Year Seminar B 45,2,First Year Seminar B,"AOTANI, Yuko 青谷 優子",Tues.,３時限
+GE201,02,Intermediate Seminar 02,2,Intermediate Seminar,"BACON, Paul Martyn ベーコン ポール・マルティン",Tues.,５時限
+GE201,03,Intermediate Seminar 03,2,Intermediate Seminar,"DAIMON, Leo 大門 怜央",Sat.,４時限
+GE201,04,Intermediate Seminar 04,2,Intermediate Seminar,"ITO, Takeshi 伊藤 剛",Thur.,４時限
+GE201,05,Intermediate Seminar 05,2,Intermediate Seminar,"HIGAKI, Julie 檜垣 樹理",Tues.,３時限
+GE201,06,Intermediate Seminar 06,2,Intermediate Seminar,"OWADA, Eiko 大和田 英子",Tues.,３時限
+GE201,07,Intermediate Seminar 07,2,Intermediate Seminar,"KATAOKA, Sadaharu 片岡 貞治",Tues.,４時限
+GE201,08,Intermediate Seminar 08,2,Intermediate Seminar,"OKAMOTO, Koichi 岡本 公一",Thur.,３時限
+GE201,11,Intermediate Seminar 11,2,Intermediate Seminar,"DIMMER, Christian ディマ クリスティアン",Fri.,３時限
+GE201,12,Intermediate Seminar 12,2,Intermediate Seminar,"SAKURAI, Keiko 桜井 啓子",Thur.,２時限
+GE201,13,Intermediate Seminar 13,2,Intermediate Seminar,"MASUKO, Mayumi 益子 真由美",Wed.,４時限
+GE201,14,Intermediate Seminar 14,2,Intermediate Seminar,"YOSHIDA, Satoshi 吉田 知史",Wed.,４時限
+GE201,15,Intermediate Seminar 15,2,Intermediate Seminar,"POKARIER, Christopher J ポカリア クリストファー",Wed.,２時限
+GE201,16,Intermediate Seminar 16,2,Intermediate Seminar,"FUKUYAMA, Yuko 福山 佑子",Wed.,３時限
+GE201,17,Intermediate Seminar 17,2,Intermediate Seminar,"HIGAKI, Julie 檜垣 樹理",Tues.,４時限
+GE201,18,Intermediate Seminar 18,2,Intermediate Seminar,"IKESHIMA, Taisaku 池島 大策",Thur.,１時限
+GE201,19,Intermediate Seminar 19,2,Intermediate Seminar,"NAKAMURA, Chie 中村 智栄",Thur.,３時限
+GE201,20,Intermediate Seminar 20,2,Intermediate Seminar,"BAAK, Saang Joon バク サンジュン",Mon.,５時限
+GE201,21,Intermediate Seminar 21,2,Intermediate Seminar,"AKIBA, Takeshi 秋葉 丈志",Tues.,３時限
+GE201,22,Intermediate Seminar 22,2,Intermediate Seminar,"UCHIDA, Akiko 内田 亮子",Thur.,２時限
+GE201,25,Intermediate Seminar 25,2,Intermediate Seminar,"NAGASAKA, Masumi 長坂 真澄",Wed.,３時限
+GE201,27,Intermediate Seminar 27,2,Intermediate Seminar,"ISHIKAWA, Terukichi 石川 輝吉",Thur.,２時限
+GE201,29,Intermediate Seminar 29,2,Intermediate Seminar,"FIELD, Malcolm フィールド マルコム",Thur.,４時限
+GE201,31,Intermediate Seminar 31,2,Intermediate Seminar,"KUROKAWA, Chiemi 黒川 智恵美",Thur.,４時限
+GE201,32,Intermediate Seminar 32,2,Intermediate Seminar,"HIRASAWA, Caroline Ｃ．ヒラサワ",Wed.,３時限
+GE201,33,Intermediate Seminar 33,2,Intermediate Seminar,"MORIYAMA, Hiizu 森山 秀",Wed.,４時限
+GE201,34,Intermediate Seminar 34,2,Intermediate Seminar,"UESUGI, Yuji 上杉 勇司",Sat.,３時限
+GE201,35,Intermediate Seminar 35,2,Intermediate Seminar,"DVORAK, Greg ドボルザーク グレッグ",Thur.,３時限
+GE201,37,Intermediate Seminar 37,2,Intermediate Seminar,"CABELL, Charles Richard カベル チャールズ",Mon.,３時限
+GE201,38,Intermediate Seminar 38,2,Intermediate Seminar,"SATO, Azusa 佐藤 あずさ",Mon.,３時限
+GE201,39,Intermediate Seminar 39,2,Intermediate Seminar,"CABELL, Charles Richard カベル チャールズ",Mon.,４時限
+GE201,40,Intermediate Seminar 40,2,Intermediate Seminar,"MUEHLEISEN, Victoria L. ミューライゼン ヴィクトリア",Fri.,４時限
+GE201,42,Intermediate Seminar 42,2,Intermediate Seminar,"SUZUKI, Yuichi 鈴木 祐一",Wed.,４時限
+GE122,01,Introductory Statistics A 01,2,Introductory Statistics A (Japanese),"SHIOMITSU, Eiji 塩満 栄司",Wed.,５時限
+GE122,03,Introductory Statistics A 03,2,Introductory Statistics A (Japanese),"NONAKA, Makoto 野中 誠",Tues.,４時限
+GE122,04,Introductory Statistics A 04,2,Introductory Statistics A (Japanese),"RIKIMARU, Yuki 力丸 佑紀",Thur.,２時限
+GE122,07,Introductory Statistics A 07,2,Introductory Statistics A (Japanese),"TANAKA, Takumi 田中 碧海",Fri.,４時限
+GE122,11,Introductory Statistics A 11,2,Introductory Statistics A (English),"XUE, Yujie セツ ギョクケツ",Mon.,４時限
+GE122,12,Introductory Statistics A 12,2,Introductory Statistics A (English),"OTA, Shuhei 太田 修平",Fri.,４時限
+GE122,14,Introductory Statistics A 14,2,Introductory Statistics A (English),"SUZUKI, Ayako 鈴木 彩子",Thur.,２時限
+GE123,01,Introductory Statistics B 01,2,Introductory Statistics B (Japanese),"OGATA, Hiroaki 小方 浩明",Wed.,４時限
+GE123,11,Introductory Statistics B 11,2,Introductory Statistics B (English),"OGATA, Hiroaki 小方 浩明",Wed.,３時限
+GE131,01,Introductory Data Science 01,2,Introductory Data Science,"Wang, Jinfang 汪 金芳",Wed.,５時限
+GE131,02,Introductory Data Science 02,2,Introductory Data Science,"SHINO, Junnosuke 篠 潤之介",Wed.,４時限
+GE131,03,Introductory Data Science 03,2,Introductory Data Science,"OHMAN, Emily オーマン エミリー",Tues.,３時限
+GE131,04,Introductory Data Science 04,2,Introductory Data Science,"QI, Xin 斉 欣",Tues.,４時限
+GE131,05,Introductory Data Science 05,2,Introductory Data Science,"QI, Xin 斉 欣",Wed.,３時限
+GE131,06,Introductory Data Science 06,2,Introductory Data Science,"CHEN, Po Lin 陳 柏霖",Fri.,３時限
+GE131,07,Introductory Data Science 07,2,Introductory Data Science,"CHUNG, Wookyung ジョン ウーギョン",Fri.,５時限
+LE202,01,"Science, Technology and Society 01",2,Introductory Courses,"SIDOLI, Nathan Camillo シドリ ネイサン カミッロ",Tues.,３時限
+LE203,01,Life and Environment,2,Introductory Courses,"YOSHIDA, Satoshi 吉田 知史",Tues.,３時限
+LE206,01,Dinosaurs: Discovery and Research,2,Introductory Courses,"HIRAYAMA, Ren 平山 廉",Tues.,４時限
+LE209,01,Invitation to Natural Sciences 01,2,Introductory Courses,"HIRAYAMA, Ren 平山 廉, INABA, Satoshi 稲葉 知士, SIDOLI, Nathan Camillo シドリ ネイサン カミッロ, YOSHIDA, Satoshi 吉田 知史, Wang, Jinfang 汪 金芳, KHATIWALA, Samar Prakash カティワラ サマー プラカッシュ",Fri.,５時限
+MI203,01,Introduction to Physical Science 01,2,Introductory Courses,"INABA, Satoshi 稲葉 知士",Thur.,３時限
+MI206,01,Introductory Calculus 01,2,Introductory Courses,"NAKAJIMA, Shohei 中島 翔平",Thur.,１時限
+MI208,01,Introduction to Artificial Intelligence 01,2,Introductory Courses,"QI, Xin 斉 欣",Tues.,３時限
+MI210,01,Principles of Chemistry 01,2,Introductory Courses,"KHATIWALA, Samar Prakash カティワラ サマー プラカッシュ",Wed.,３時限
+HI201,01,Introduction to History 01,2,Introductory Courses,"STERENBERG, Matthew Kane ステレンバーグ マシュー ケイン",Wed.,２時限
+HI205,01,Introduction to Italian Studies 01,2,Introductory Courses,"FUKUYAMA, Yuko 福山 佑子",Mon.,３時限
+EB202,01,Introduction to Business 01,2,Introductory Courses,"POKARIER, Christopher J ポカリア クリストファー",Wed.,４時限
+EB205,01,Introduction to Microeconomics 01,2,Introductory Courses,"SHINO, Junnosuke 篠 潤之介",Sat.,２時限
+EB206,01,Introduction to Macroeconomics 01,2,Introductory Courses,"BAAK, Saang Joon バク サンジュン",Tues.,４時限
+EB209,01,Introduction to Marketing 01,2,Introductory Courses,"MORIMOTO, Mariko 森本 真理子",Wed.,３時限
+GO207,01,Introduction to Peace and Conflict Studies 01,2,Introductory Courses,"UESUGI, Yuji 上杉 勇司",Thur.,３時限
+GO210,01,APM- History of Political Ideas: A French Perspective 01,2,Introductory Courses,"SALA, Adrienne Yumiko サラ アドリエンヌ ユミコ",Fri.,３時限
+PH201,01,Introduction to Peace and Human Rights,2,Introductory Courses,"BACON, Paul Martyn ベーコン ポール・マルティン",Wed.,４時限
+IR201,01,Introduction to International Relations 01,2,Introductory Courses,"BACON, Paul Martyn ベーコン ポール・マルティン",Thur.,３時限
+IR201,03,Introduction to International Relations 03,2,Introductory Courses,"YAMASHITA, Hikaru 山下 光",Wed.,３時限
+EX207,01,Introduction to Theatre and Drama,2,Introductory Courses,"FUJIKURA, Takeo 藤倉 健雄",Mon.,５時限
+EX208,01,Introduction to Film Studies,2,Introductory Courses,"KAMINISHI, Yuta 上西 雄太",Wed.,３時限
+EX215,01,Introduction to English Literature 01,2,Introductory Courses,"TSUKADA, Yuichi 塚田 雄一",Wed.,３時限
+CU201,01,Introduction to Social Anthropology 01,2,Introductory Courses,"BERNARD, Rosemarie ベルナール ローズマリー",Thur.,３時限
+CU203,01,Introduction to Communication Studies 01,2,Introductory Courses,"NISHIMURA, Keiko 西村 恵子",Tues.,３時限
+CU218,01,"Introduction to Russian Studies: History, Culture and Contemporary Transformations 01",2,Introductory Courses,"SHADRINA, Elena シャドリナ エレナ",Wed.,２時限
+CU228,01,APM- Introduction to Contemporary History of the Two Koreas 01,2,Introductory Courses,"LEE, Bong Kyu 李 奉奎",Tues.,２時限
+CU229,01,Cultural Diversity in Japan and Beyond 01,2,Introductory Courses,"NISHIMURA, Keiko 西村 恵子",Wed.,３時限
+CU230,01,APM- German Language in Context 01,2,Introductory Courses,"STEINHAUER, Hagen Fritjof シュタインハウアー ハーゲン フリチョフ",Tues.,２時限
+MB204,01,Introduction to Psychology: Quantitative Approach 01,2,Introductory Courses,"AZUMA, Rayna 東 玲奈",Tues.,３時限
+CM201,01,Introduction to Urban Studies 01,2,Introductory Courses,"DIMMER, Christian ディマ クリスティアン",Thur.,２時限
+CM203,01,APM- Introduction to Anthropological Methods 01,2,Introductory Courses,"SHAN, Qi シャン チイ",Wed.,２時限
+LE307,01,Introduction to Environmental Science,2,Intermediate Courses,"KOHRI, Mari 郡 麻里",others,フルオンデマンド
+MI315,01,Intermediate Statistics A 01,4,Intermediate Courses,"KOBAYASHI, Mitsuki 小林 光木","Tues., Fri.",４時限
+MI319,01,Modern physics 01,2,Intermediate Courses,"INABA, Satoshi 稲葉 知士",Tues.,３時限
+MI324,01,Graph Theory 01,2,Intermediate Courses,"KURIKI, Satoshi 栗木 哲",Tues.,４時限
+MI328,01,Intermediate Data Science 01,4,Intermediate Courses,"Wang, Jinfang 汪 金芳",Tues.,"３時限, ４時限"
+HI303,01,Historical Survey (Europe) 01,4,Intermediate Courses,"STERENBERG, Matthew Kane ステレンバーグ マシュー ケイン","Tues., Thur.",３時限
+HI304,01,Historical Survey (The Americas) 01,4,Intermediate Courses,"KATO, Junko 加藤 順子","Tues., Fri.",２時限
+HI314,01,Historical Survey (Ancient and Medieval Europe) 01,2,Intermediate Courses,"FUKUYAMA, Yuko 福山 佑子",Thur.,２時限
+HI316,01,"A History of Christian-Muslim Relations, c. 600-1500 01",2,Intermediate Courses,"MALLETT, Alexander Philip John マレト アレクサンデル フィリップ ジョン",Sat.,２時限
+EB302,01,Macroeconomics,4,Intermediate Courses,"BAAK, Saang Joon バク サンジュン","Mon., Wed.",４時限
+EB341,01,Cost- Benefit Analysis 01,2,Intermediate Courses,"DAIMON, Leo 大門 怜央",others,フルオンデマンド
+EB342,01,Behavioral & Experimental Game Theory 01,2,Intermediate Courses,"ISHIKAWA, Ryuichiro 石川 竜一郎",Fri.,３時限
+EB348,01,Monetary & Financial Economics 01,2,Intermediate Courses,"ISHIKAWA, Ryuichiro 石川 竜一郎",Thur.,２時限
+GO303,01,"Public Management, Public Service and Local Government",4,Intermediate Courses,"KUDO, Hiroko 工藤 裕子",Mon.,"４時限, ５時限"
+GO330,01,Minorities and the Law in the United States 01,2,Intermediate Courses,"AKIBA, Takeshi 秋葉 丈志",Mon.,３時限
+GO331,01,Comparative Politics: Political Regimes 01,2,Intermediate Courses,"TOYONAGA, Ikuko 豊永 郁子",Wed.,４時限
+GO333,01,Elections and Electoral Systems 01,2,Intermediate Courses,"TOYONAGA, Ikuko 豊永 郁子",Thur.,３時限
+GO334,01,APM- Environmental and Climate Change Policies in France and Japan 01,2,Intermediate Courses,"SALA, Adrienne Yumiko サラ アドリエンヌ ユミコ",Wed.,４時限
+GO335,01,APM- Anthropology of Labor: Key Issues and Cases 01,2,Intermediate Courses,"SHAN, Qi シャン チイ",Wed.,４時限
+IR303,01,International Law,4,Intermediate Courses,"IKESHIMA, Taisaku 池島 大策","Tues., Thur.","３時限, ２時限"
+IR312,01,International Political Economy 01,4,Intermediate Courses,"SHU, Min 舒 旻",Tues.,"３時限, ４時限"
+CO308,01,Sociolinguistics,4,Intermediate Courses,"IINO, Masakazu 飯野 公一",Tues.,"４時限, ５時限"
+CO309,01,Pragmatics and Semantics,4,Intermediate Courses,"MASUKO, Mayumi 益子 真由美",Tues.,"３時限, ４時限"
+CO310,01,English Syntax 01,4,Intermediate Courses,"NAMAI, Kenichi 生井 健一","Mon., Wed.",４時限
+CO318,01,Applied Linguistics (English) 01,2,Intermediate Courses,"MORIYAMA, Hiizu 森山 秀",Mon.,４時限
+CO318,02,Applied Linguistics (English) 02,2,Intermediate Courses,"SUZUKI, Yuichi 鈴木 祐一",Wed.,３時限
+CO321,01,English Phonetics and Phonology 01,2,Intermediate Courses,"KONDO, Mariko 近藤 眞理子",Thur.,２時限
+EX321,01,The Art of Mime and Pantomime,4,Intermediate Courses,"FUJIKURA, Takeo 藤倉 健雄",Mon.,"３時限, ４時限"
+EX322,01,Photography 01,2,Intermediate Courses,"MOONEY, Suzanne ムーニー スザンヌ",Fri.,２時限
+EX324,01,American Literary Studies,2,Intermediate Courses,"OWADA, Eiko 大和田 英子",Tues.,１時限
+EX325,01,Opera: History and Its Development 01,4,Intermediate Courses,"HADAME, Hiroo 甚目 裕夫",Wed.,"４時限, ５時限"
+EX334,01,Art and Lifestyle of Japan: as seen through Two Centuries of Japanese Arts and Crafts 01,4,Intermediate Courses,"MIMURA, Kyoko 三村 京子",Thur.,"３時限, ４時限"
+EX335,01,Video Game Studies 01,2,Intermediate Courses,"BARLEV, Nave バーレヴ ナヴェ",Tues.,４時限
+EX344,01,Japanese Art History 01,4,Intermediate Courses,"HIRASAWA, Caroline Ｃ．ヒラサワ","Tues., Thur.",３時限
+EX346,01,Literary Theory 01,2,Intermediate Courses,"TSUKADA, Yuichi 塚田 雄一",Wed.,４時限
+CU301,01,Comparative Cultural Studies 01,4,Intermediate Courses,"ASO, Takashi 麻生 享志",Thur.,"２時限, ３時限"
+CU302,01,Gender Studies 01,4,Intermediate Courses,"DVORAK, Greg ドボルザーク グレッグ",Wed.,"４時限, ５時限"
+CU310,01,Culture in Context 4th,2,Intermediate Courses,"FIELD, Malcolm フィールド マルコム",Thur.,３時限
+CU311,01,Culture and Law 01,2,Intermediate Courses,"RHEE, Maji Christine リー マージ クリスティン",Wed.,１時限
+CU330,01,Anthropology of Religion 01,4,Intermediate Courses,"BERNARD, Rosemarie ベルナール ローズマリー",Fri.,"３時限, ４時限"
+CU333,01,Python Programming for Digital Humanities 01,4,Intermediate Courses,"OHMAN, Emily オーマン エミリー","Thur., others","２時限, フルオンデマンド"
+CU335,01,The German-Speaking Countries: Language and Society 01,2,Intermediate Courses,"SCHARLOTH, Joachim シャルロート ヨアヒム",Thur.,３時限
+CU340,01,APM- International Relations in the 20th Century: A Korean Perspective 01,2,Intermediate Courses,"LEE, Bong Kyu 李 奉奎",Wed.,４時限
+CU341,01,APM- Public and Citizen Participation in French Climate Change Debates 01,2,Intermediate Courses,"SALA, Adrienne Yumiko サラ アドリエンヌ ユミコ",Wed.,３時限
+CU344,01,Materialities of Communication Media 01,2,Intermediate Courses,"NISHIMURA, Keiko 西村 恵子",Mon.,４時限
+CU345,01,Media and Popular Culture 01,2,Intermediate Courses,"NISHIMURA, Keiko 西村 恵子",Tues.,４時限
+CU346,01,APM- Selected Topics in Korean Society 01,2,Intermediate Courses,"LEE, Bong Kyu 李 奉奎",Wed.,２時限
+CU347,01,APM- German Communicative Genres and Texttypes in Everyday Life and Academic Discourse 01,2,Intermediate Courses,"STEINHAUER, Hagen Fritjof シュタインハウアー ハーゲン フリチョフ",Tues.,３時限
+CU348,01,APM- Youth Culture and Language in Germany (Jugendkultur und Jugendsprache in Deutschland) 01,2,Intermediate Courses,"STEINHAUER, Hagen Fritjof シュタインハウアー ハーゲン フリチョフ",Mon.,３時限
+CU349,01,K-Culture in Text 01,2,Intermediate Courses,"RHEE, Maji Christine リー マージ クリスティン",Wed.,２時限
+MB304,01,Cognitive Psychology,4,Intermediate Courses,"AZUMA, Rayna 東 玲奈",Thur.,"２時限, ３時限"
+CM305,01,APM- Anthropology and Chinese Studies in the 20th Century 01,2,Intermediate Courses,"SHAN, Qi シャン チイ",Thur.,３時限
+LE406,01,Paleoherpetology 01,4,Advanced Courses,"HIRAYAMA, Ren 平山 廉",Mon.,"３時限, ４時限"
+LE409,01,Evolutionary Biology 01,4,Advanced Courses,"UCHIDA, Akiko 内田 亮子",Mon.,"３時限, ４時限"
+LE410,01,Virtual Earth: Simulating the Environment 01,4,Advanced Courses,"KHATIWALA, Samar Prakash カティワラ サマー プラカッシュ","Mon., Wed.",２時限
+MI401,01,Computerized Society 01,2,Advanced Courses,"QI, Xin 斉 欣",Wed.,４時限
+MI409,01,Differential Equations 01,4,Advanced Courses,"INABA, Satoshi 稲葉 知士",Wed.,"３時限, ４時限"
+MI413,01,Advanced Calculus 01,4,Advanced Courses,"SCHUSTER, Alfons Josef シュスター アルフォンズ ジョセフ","Tues., Fri.",２時限
+PR414,01,History of Metaphysics and of its Critique 01,4,Advanced Courses,"NAGASAKA, Masumi 長坂 真澄",Tues.,"３時限, ４時限"
+PR417,01,Political Movements in the Islamic World 01,4,Advanced Courses,"SAKURAI, Keiko 桜井 啓子","Thur., Fri.",３時限
+HI402,01,International History of War and Peace,4,Advanced Courses,"OKAMOTO, Koichi 岡本 公一","Wed., Fri.",３時限
+HI419,01,History of Modern Earth and Life Sciences 01,4,Advanced Courses,"SIDOLI, Nathan Camillo シドリ ネイサン カミッロ","Mon., Tues.",５時限
+HI424,01,History of Premodern Japan 01,4,Advanced Courses,"NAKAI, Maki 中井 真木","Tues., Fri.",１時限
+EB431,01,Fiscal Issues on Social Security 01,2,Advanced Courses,"KOOK, Joongho 鞠 重鎬",Tues.,５時限
+EB434,01,Enterprise and Governance 01,4,Advanced Courses,"POKARIER, Christopher J ポカリア クリストファー",Thur.,"２時限, ３時限"
+EB438,01,Industrial Organization 01,4,Advanced Courses,"SUZUKI, Ayako 鈴木 彩子","Mon., Sat.","３時限, ２時限"
+EB443,01,Economic Development 01,4,Advanced Courses,"DAIMON, Leo 大門 怜央",Sat.,"１時限, ２時限"
+EB447,01,Modern Korean Economic Development 01,2,Advanced Courses,"KIM, Sei Wan 金 世浣",Fri.,３時限
+GO413,01,Ancient Political Thought 01,4,Advanced Courses,"SEUL, Timothy スール ティモシー","Wed., Thur.",３時限
+GO425,01,Comparative Politics: Democracies 01,2,Advanced Courses,"TOYONAGA, Ikuko 豊永 郁子",Wed.,３時限
+GO426,01,Political Parties and Party Systems 01,2,Advanced Courses,"TOYONAGA, Ikuko 豊永 郁子",Tues.,３時限
+GO427,01,Peacebuilding and Humanitarian Assistance 01,4,Advanced Courses,"UESUGI, Yuji 上杉 勇司",Fri.,"２時限, ３時限"
+GO428,01,APM- Advanced Perspectives on Women in Politics: A Comparative Study 01,2,Advanced Courses,"SALA, Adrienne Yumiko サラ アドリエンヌ ユミコ",Fri.,４時限
+GO429,01,APM- Germany as a Democracy at risk 01,2,Advanced Courses,"STEINHAUER, Hagen Fritjof シュタインハウアー ハーゲン フリチョフ",Mon.,４時限
+IR403,01,European Integration and Foreign Policy,4,Advanced Courses,"KATAOKA, Sadaharu 片岡 貞治",Wed.,"４時限, ５時限"
+CO421,01,Selected Topics in Applied Linguistics 01,4,Advanced Courses,"MUEHLEISEN, Victoria L. ミューライゼン ヴィクトリア","Mon., Fri.",１時限
+CO457,01,Acoustics and Auditory Phonetics,4,Advanced Courses,"KONDO, Mariko 近藤 眞理子",Mon.,"２時限, ３時限"
+EX422,01,Cultural Interaction between East and West in Art,4,Advanced Courses,"KOBAYASHI, Kazue 小林 一枝",Wed.,"３時限, ４時限"
+EX431,01,Special Topics in Cinema and Media Studies,4,Advanced Courses,"KAMINISHI, Yuta 上西 雄太","Tues., Thur.",３時限
+EX446,01,Reading American Literature 01,4,Advanced Courses,"OWADA, Eiko 大和田 英子",Mon.,"３時限, ４時限"
+EX459,01,Translation as Creative Writing 01,2,Advanced Courses,"KARASHIMA, David 辛島 デイヴィッド",Tues.,３時限
+EX459,02,Translation as Creative Writing 02,2,Advanced Courses,"KARASHIMA, David 辛島 デイヴィッド",Tues.,４時限
+EX464,01,Translation Studies: Topics in Translation Theory 01,4,Advanced Courses,"RAESIDE, James Matthew レイサイド ジェームス マシュ",Wed.,"２時限, ４時限"
+EX466,01,"The Translation, Production and Reception of Contemporary Japanese Literature for the Anglophone World and Beyond 01",2,Advanced Courses,"KARASHIMA, David 辛島 デイヴィッド",Wed.,３時限
+CU453,01,Chinese Diaspora and Globalization 01,2,Advanced Courses,"CHEN, Tien Shi 陳 天璽",Fri.,４時限
+CU469,01,Topics in Spanish America (Spanish) 01,2,Advanced Courses,"MATO, Shigeko 間藤 茂子",Wed.,３時限
+CU471,01,APM- Intellectual History of Contemporary Korea 01,2,Advanced Courses,"LEE, Bong Kyu 李 奉奎",Tues.,４時限
+CM405,01,Urban Studies,2,Advanced Courses,"DIMMER, Christian ディマ クリスティアン",Fri.,２時限
+CM407,01,APM- Anthropological Appreciation of Chinese Cinema 01,2,Advanced Courses,"SHAN, Qi シャン チイ",Thur.,５時限
+LE501,01,Seminar on Life and Environment 01,2,Advanced Seminars,"HIRAYAMA, Ren 平山 廉",Wed.,３時限
+LE501,02,Seminar on Life and Environment 02,2,Advanced Seminars,"YOSHIDA, Satoshi 吉田 知史",Wed.,５時限
+LE501,03,Seminar on Life and Environment 03,2,Advanced Seminars,"UCHIDA, Akiko 内田 亮子",Wed.,２時限
+LE501,04,Seminar on Life and Environment 04,2,Advanced Seminars,"KHATIWALA, Samar Prakash カティワラ サマー プラカッシュ",Wed.,５時限
+MI501,02,Seminar on Matter and Information 02,2,Advanced Seminars,"INABA, Satoshi 稲葉 知士",Wed.,５時限
+MI501,03,Seminar on Matter and Information 03,2,Advanced Seminars,"SIDOLI, Nathan Camillo シドリ ネイサン カミッロ",Wed.,５時限
+MI501,05,Seminar on Matter and Information 05,2,Advanced Seminars,"Wang, Jinfang 汪 金芳",Wed.,２時限
+PR501,01,Seminar on Philosophy and Religion 01,2,Advanced Seminars,"NAGASAKA, Masumi 長坂 真澄",Wed.,４時限
+PR501,02,Seminar on Philosophy and Religion 02,2,Advanced Seminars,"SAKURAI, Keiko 桜井 啓子",Fri.,４時限
+PR501,04,Seminar on Philosophy and Religion 04,2,Advanced Seminars,"HIGAKI, Julie 檜垣 樹理",Wed.,４時限
+HI501,02,Seminar on History 02,2,Advanced Seminars,"OKAMOTO, Koichi 岡本 公一",Fri.,４時限
+HI501,03,Seminar on History 03,2,Advanced Seminars,"STERENBERG, Matthew Kane ステレンバーグ マシュー ケイン",Wed.,４時限
+HI501,05,Seminar on History 05,2,Advanced Seminars,"FUKUYAMA, Yuko 福山 佑子",Tues.,２時限
+HI501,06,Seminar on History 06,2,Advanced Seminars,"NAKAI, Maki 中井 真木",Fri.,４時限
+EB501,01,Seminar on Economy and Business 01,2,Advanced Seminars,"BAAK, Saang Joon バク サンジュン",Tues.,５時限
+EB501,02,Seminar on Economy and Business 02,2,Advanced Seminars,"DAIMON, Leo 大門 怜央",Fri.,５時限
+EB501,03,Seminar on Economy and Business 03,2,Advanced Seminars,"ISHIKAWA, Ryuichiro 石川 竜一郎",Fri.,４時限
+EB501,05,Seminar on Economy and Business 05,2,Advanced Seminars,"POKARIER, Christopher J ポカリア クリストファー",Wed.,５時限
+EB501,06,Seminar on Economy and Business 06,2,Advanced Seminars,"SHADRINA, Elena シャドリナ エレナ",Wed.,４時限
+EB501,07,Seminar on Economy and Business 07,2,Advanced Seminars,"MORIMOTO, Mariko 森本 真理子",Mon.,３時限
+EB501,08,Seminar on Economy and Business 08,2,Advanced Seminars,"SUZUKI, Ayako 鈴木 彩子",Mon.,２時限
+EB501,09,Seminar on Economy and Business 09,2,Advanced Seminars,"SHINO, Junnosuke 篠 潤之介",Wed.,５時限
+GO501,01,Seminar on Governance 01,2,Advanced Seminars,"SEUL, Timothy スール ティモシー",Wed.,４時限
+GO501,03,Seminar on Governance 03,2,Advanced Seminars,"AKIBA, Takeshi 秋葉 丈志",Tues.,４時限
+GO501,06,Seminar on Governance 06,2,Advanced Seminars,"UESUGI, Yuji 上杉 勇司",Fri.,４時限
+IR501,01,Seminar on International Relations 01,2,Advanced Seminars,"BACON, Paul Martyn ベーコン ポール・マルティン",Fri.,３時限
+IR501,02,Seminar on International Relations 02,2,Advanced Seminars,"IKESHIMA, Taisaku 池島 大策",Tues.,２時限
+IR501,03,Seminar on International Relations 03,2,Advanced Seminars,"KATAOKA, Sadaharu 片岡 貞治",Tues.,５時限
+IR501,06,Seminar on International Relations 06,2,Advanced Seminars,"SHU, Min 舒 旻",Thur.,３時限
+CO501,02,Seminar on Communication 02,2,Advanced Seminars,"MORIYAMA, Hiizu 森山 秀",Mon.,５時限
+CO501,05,Seminar on Communication 05,2,Advanced Seminars,"NAMAI, Kenichi 生井 健一",Wed.,３時限
+CO501,06,Seminar on Communication 06,2,Advanced Seminars,"IINO, Masakazu 飯野 公一",Wed.,５時限
+CO501,07,Seminar on Communication 07,2,Advanced Seminars,"KONDO, Mariko 近藤 眞理子",Tues.,２時限
+CO501,08,Seminar on Communication 08,2,Advanced Seminars,"MASUKO, Mayumi 益子 真由美",Thur.,３時限
+CO501,09,Seminar on Communication 09,2,Advanced Seminars,"MUEHLEISEN, Victoria L. ミューライゼン ヴィクトリア",Fri.,２時限
+CO501,12,Seminar on Communication 12,2,Advanced Seminars,"DETEY, Sylvain Matthieu Julien ドゥテ シルヴァン マッチュウ ジュリアン",Thur.,３時限
+CO501,13,Seminar on Communication 13,2,Advanced Seminars,"SATO, Azusa 佐藤 あずさ",Thur.,２時限
+CO501,14,Seminar on Communication 14,2,Advanced Seminars,"NAKAMURA, Chie 中村 智栄",Fri.,３時限
+CO501,15,Seminar on Communication 15,2,Advanced Seminars,"SUZUKI, Yuichi 鈴木 祐一",Fri.,３時限
+EX501,07,Seminar on Expression 07,2,Advanced Seminars,"HIRASAWA, Caroline Ｃ．ヒラサワ",Tues.,２時限
+EX501,09,Seminar on Expression 09,2,Advanced Seminars,"KARASHIMA, David 辛島 デイヴィッド",Wed.,４時限
+EX501,10,Seminar on Expression 10,2,Advanced Seminars,"OWADA, Eiko 大和田 英子",Tues.,２時限
+EX501,13,Seminar on Expression 13,2,Advanced Seminars,"TSUKADA, Yuichi 塚田 雄一",Tues.,４時限
+CU501,01,Seminar on Culture 01,2,Advanced Seminars,"ASO, Takashi 麻生 享志",Fri.,２時限
+CU501,02,Seminar on Culture 02,2,Advanced Seminars,"BERNARD, Rosemarie ベルナール ローズマリー",Wed.,４時限
+CU501,05,Seminar on Culture 05,2,Advanced Seminars,"DVORAK, Greg ドボルザーク グレッグ",Tues.,５時限
+CU501,07,Seminar on Culture 07,2,Advanced Seminars,"SCHARLOTH, Joachim シャルロート ヨアヒム",Wed.,３時限
+CU501,11,Seminar on Culture 11,2,Advanced Seminars,"DIMMER, Christian ディマ クリスティアン",Fri.,５時限
+CU501,13,Seminar on Culture 13,2,Advanced Seminars,"RHEE, Maji Christine リー マージ クリスティン",Wed.,３時限
+CU501,14,Seminar on Culture 14,2,Advanced Seminars,"YOSHIMOTO, Mitsuhiro 吉本 光宏",Wed.,４時限
+CU501,15,Seminar on Culture 15,2,Advanced Seminars,"MATO, Shigeko 間藤 茂子",Wed.,５時限
+CU501,17,Seminar on Culture 17,2,Advanced Seminars,"CHEN, Tien Shi 陳 天璽",Wed.,４時限
+CU501,18,Seminar on Culture 18,2,Advanced Seminars,"OHMAN, Emily オーマン エミリー",Tues.,２時限
+CU501,19,Seminar on Culture 19,2,Advanced Seminars,"NISHIMURA, Keiko 西村 恵子",Wed.,４時限
+MB501,01,Seminar on Mind and Body 01,2,Advanced Seminars,"AZUMA, Rayna 東 玲奈",Tues.,４時限

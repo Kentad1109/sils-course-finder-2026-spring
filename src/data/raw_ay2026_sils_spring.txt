@@ -1,0 +1,776 @@
+2026春学期科目_開講科目
+Code Class Course Title 	Credits 	Day 	Period
+EnglishⅢ 	英語Ⅲ
+CO126 01-14 English Academic Writing, Level 2 W201SP～W214SP 	1
+CO127 01-18 English Academic Writing, Level 3 W301SP～W30XSP 	1
+English Support 	英語Ⅳ
+01 English Support 01 	2 MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Mon. 	３時限
+02 English Support 02 	2 MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Mon. 	４時限
+English Plus（Elective) 	英語Ⅴ
+GE162 	01 English Plus (Writing to inform and persuade) 01 	2 SNYDER, William Emmett 	スナイダー ウィリアム エメット 	Thur. 	５時限
+GE163 	01 English Plus (Speech and Public Speaking) 01 	2 AOTANI, Yuko 	青谷 優子 	Thur. 	４時限
+GE164 	01 English Plus (Leading Discussion (and presentation)) 01 	2 FIELD, Malcolm 	フィールド マルコム 	Fri. 	２時限
+Other Foreign Languages 	その他外国語
+レベル１ level 1
+GIUNTA, Lena 	ジュンタ レナ 	Tues. 	２時限
+BERTHET, Didier 	ベルテ ディディエ 	Mon. 	５時限
+HATTORI, Catherine 	服部 カトリーヌ 	Mon. 	１時限
+HATTORI, Catherine 	服部 カトリーヌ 	Mon. 	２時限
+RUDE, Markus 	ルーデ マルクス 	Mon. 	１時限
+MUELENZ-GOLI, Katharina 	ムレンス ゴリ カタリナ 	Tues. 	１時限
+NICKEL, Frank 	ニッケル フランク 	Wed. 	１時限
+WEICHERT, Robin Frank 	ヴァイヒャート ロビン フランク 	Fri. 	１時限
+MONTERO PEREDA, Francisco Javier 	モンテロ ペレダ フランシスコ ハビエル 	Mon. 	１時限
+MONTERO PEREDA, Francisco Javier 	モンテロ ペレダ フランシスコ ハビエル 	Wed. 	１時限
+MOYANO LOPEZ, Juan Carlos 	モヤノ ロペス フアン カルロス 	Mon. 	１時限
+FOWLER, Arthur 	ファウラー アーサー 	Wed. 	１時限
+NAKAMICHI, Shinji 	仲道 慎治 	Mon. 	１時限
+SHINTANI, Roxana 	新谷 ロクサナ 	Fri. 	１時限
+FOWLER, Arthur 	ファウラー アーサー 	Tues. 	１時限
+FOWLER, Arthur 	ファウラー アーサー 	Thur. 	１時限
+KAWASAKI, Kayo 	河崎 佳代 	Mon. 	１時限
+SOTO MEJIA, Maria Irina 	ソトメヒア マリア イリナ 	Fri. 	１時限
+FOWLER, Arthur 	ファウラー アーサー 	Mon. 	１時限
+SOTO MEJIA, Maria Irina 	ソトメヒア マリア イリナ 	Wed. 	１時限
+NAGAI, Tetsuro 	永井 鉄郎 	Tues. 	１時限
+IGUCHI, Hirofumi 	井口 博文 	Fri. 	１時限
+CHEN, Tien Shi 	陳 天璽 	Thur. 	２時限
+WANG, Yijen 	王 怡人 	Fri. 	１時限
+WU, Yingru 	呉 映儒 	Mon. 	２時限
+WANG, Yijen 	王 怡人 	Wed. 	２時限
+SHADRINA, Elena 	シャドリナ エレナ 	Wed. 	１時限
+SHADRINA, Elena 	シャドリナ エレナ 	Thur. 	１時限
+NAKAZATO, Hisaya 	中里 久弥 	Mon. 	２時限
+KAMIYA, Niji 	神谷 丹路 	Wed. 	２時限
+KISHI, Kanako 	岸 加那子 	Mon. 	２時限
+KAIMORI, Tokiko 	貝森 時子 	Thur. 	２時限
+TATSUNO, Sayo 	龍野 沙代 	Tues. 	２時限
+TATSUNO, Sayo 	龍野 沙代 	Fri. 	２時限
+RHEE, Maji Christine 	リー マージ クリスティン 	Tues. 	２時限
+JUN, Dongwon 	全 東園 	Fri. 	２時限
+レベル２ level 2
+BERTHET, Didier 	ベルテ ディディエ 	Wed. 	１時限
+BERTHET, Didier 	ベルテ ディディエ 	Wed. 	２時限
+HATTORI, Catherine 	服部 カトリーヌ 	Tues. 	１時限
+HATTORI, Catherine 	服部 カトリーヌ 	Tues. 	２時限
+NUNOKAWA, Yasuko 	布川 恭子 	Mon. 	１時限
+NICKEL, Frank 	ニッケル フランク 	Wed. 	２時限
+MONTERO PEREDA, Francisco Javier 	モンテロ ペレダ フランシスコ ハビエル 	Mon. 	２時限
+MONTERO PEREDA, Francisco Javier 	モンテロ ペレダ フランシスコ ハビエル 	Wed. 	２時限
+NAKAMICHI, Shinji 	仲道 慎治 	Mon. 	２時限
+SHINTANI, Roxana 	新谷 ロクサナ 	Fri. 	２時限
+KAWASAKI, Kayo 	河崎 佳代 	Mon. 	２時限
+SOTO MEJIA, Maria Irina 	ソトメヒア マリア イリナ 	Fri. 	２時限
+WU, Yingru 	呉 映儒 	Mon. 	１時限
+OH, Zuirai 	王 瑞来 	Thur. 	１時限
+NAGAI, Tetsuro 	永井 鉄郎 	Tues. 	２時限
+ARISAWA, Uenyu 	張 文郁 	Wed. 	１時限
+IZUMI, Anna 	泉 杏奈 	Mon. 	２時限
+CHEN, Tien Shi 	陳 天璽 	Fri. 	２時限
+NAKAZAWA, Tomoko 	中澤 朋子 	Mon. 	２時限
+NAKAZAWA, Tomoko 	中澤 朋子 	Thur. 	２時限
+ANN, Eunhee 	安 垠姫 	Mon. 	２時限
+NAKAZATO, Hisaya 	中里 久弥 	Thur. 	２時限
+JUN, Dongwon 	全 東園 	Tues. 	２時限
+NAKAZATO, Hisaya 	中里 久弥 	Fri. 	２時限
+レベル３ level 3
+HAYASHI, Yuki 	林 ゆき 	Tues. 	１時限
+HAYASHI, Yuki 	林 ゆき 	Tues. 	２時限
+FOWLER, Arthur 	ファウラー アーサー 	Mon. 	２時限
+SOTO MEJIA, Maria Irina 	ソトメヒア マリア イリナ 	Wed. 	２時限
+IGUCHI, Hirofumi 	井口 博文 	Tues. 	１時限
+IGUCHI, Hirofumi 	井口 博文 	Fri. 	２時限
+NAKAZATO, Hisaya 	中里 久弥 	Wed. 	２時限
+ANN, Eunhee 	安 垠姫 	Fri. 	２時限
+インテンシブコース Intensive Courses
+BERTHET, Didier 	ベルテ ディディエ 	Tues. 	１時限
+BERTHET, Didier 	ベルテ ディディエ 	Tues. 	２時限
+MEHL, Frank Arnaud 	メール フランク アルノー 	Fri. 	１時限
+MEHL, Frank Arnaud 	メール フランク アルノー 	Fri. 	２時限
+TOMITA, Kyoko 	富田 今日子 	Mon. 	２時限
+TOMITA, Kyoko 	富田 今日子 	Tues. 	２時限
+TOMITA, Kyoko 	富田 今日子 	Wed. 	２時限
+TOMITA, Kyoko 	富田 今日子 	Fri. 	２時限
+NUNOKAWA, Yasuko 	布川 恭子 	Mon. 	２時限
+SCHARLOTH, Joachim 	シャルロート ヨアヒム 	Tues. 	１時限
+SCHARLOTH, Joachim 	シャルロート ヨアヒム 	Wed. 	２時限
+WEICHERT, Robin Frank 	ヴァイヒャート ロビン フランク 	Fri. 	２時限
+HIROYASU, Yoshimi 	廣康 好美 	Mon. 	１時限
+HIROYASU, Yoshimi 	廣康 好美 	Tues. 	１時限
+KREJCOVA, Jolana 	クレイチョヴァ ヨラナ 	Thur. 	１時限
+KREJCOVA, Jolana 	クレイチョヴァ ヨラナ 	Fri. 	１時限
+HIROYASU, Yoshimi 	廣康 好美 	Mon. 	２時限
+HIROYASU, Yoshimi 	廣康 好美 	Tues. 	２時限
+MATO, Shigeko 	間藤 茂子 	Thur. 	２時限
+MATO, Shigeko 	間藤 茂子 	Fri. 	２時限
+IZUMI, Anna 	泉 杏奈 	Thur. 	１時限
+IGUCHI, Hirofumi 	井口 博文 	Tues. 	２時限
+WANG, Yijen 	王 怡人 	Wed. 	１時限
+HAN, Yue 	韓 越 	Fri. 	１時限
+HAN, Yue 	韓 越 	Fri. 	２時限
+HAN, Yue 	韓 越 	Fri. 	３時限
+IZUMI, Anna 	泉 杏奈 	Thur. 	２時限
+CHEN, Tien Shi 	陳 天璽 	Wed. 	２時限
+ARISAWA, Uenyu 	張 文郁 	Wed. 	２時限
+OH, Zuirai 	王 瑞来 	Thur. 	２時限
+WANG, Yijen 	王 怡人 	Fri. 	２時限
+KIM, Shinyoung 	金 信栄 	Mon. 	２時限
+KIM, Shinyoung 	金 信栄 	Thur. 	２時限
+KIM, Shinyoung 	金 信栄 	Fri. 	２時限
+CO125
+2
+2
+2
+2
+2
+2
+2
+2
+CO113
+CO131
+CO132
+02
+French I 01	01
+French I 02	02
+German I 01	01
+2
+2
+2
+2
+2
+2
+2
+2
+2
+04
+2
+2
+2
+2
+2
+2
+2
+2
+Chinese II 01	01
+Chinese II 02	02
+Chinese II 03 (Direct Method)	03
+Spanish II 02	02
+Spanish II 03	03
+Spanish II 04	04
+French III 01	01
+2
+2
+2
+2
+2
+2
+2
+2
+3
+3
+4
+4
+4
+4
+4
+4
+2
+2
+4
+CO144
+CO145
+CO168
+CO170
+CO177
+CO141
+CO142
+CO143
+CO135
+CO136
+CO133
+CO134
+CO166
+CO167
+CO163
+CO165
+CO156
+CO161
+CO146
+CO151
+CO153
+CO154
+German I 02	02
+Spanish I 01	01
+Spanish I 02
+Spanish I 03	03
+Spanish I 04	04
+Spanish I 05	05
+English Academic Writing, Level 1 W101SP～W104SP	01-04
+Chinese I 03 (Direct Method)	03
+Russian I 01	01
+Korean I 01	01
+Spanish I 06	06
+Chinese I 01	01
+Chinese I 02	02
+French II 01	01
+French II 02	02
+German II 01	01
+Korean I 02	02
+Korean I 03	03
+Korean I 04
+Spanish III 01	01
+Chinese III 01	01
+Russian II 01	01
+Korean II 01	01
+Korean II 02	02
+Intensive Spanish I 01	01
+Intensive German I 01	01
+Intensive French I 02	02
+Korean III 01	01
+Intensive French I 01	01
+Intensive Chinese III 01	01
+Intensive Korean 01	01
+Intensive Chinese II 01	01
+Intensive Chinese I 01	01
+Intensive Spanish II 01	01
+Instructor
+1 / 4 ページ
+
+-- 1 of 4 --
+
+その他のレベル Extra level
+RUDE, Markus 	ルーデ マルクス 	Mon. 	２時限
+MUELENZ-GOLI, Katharina 	ムレンス ゴリ カタリナ 	Tues. 	２時限
+MOYANO LOPEZ, Juan Carlos 	モヤノ ロペス フアン カルロス 	Mon. 	２時限
+FOWLER, Arthur 	ファウラー アーサー 	Wed. 	２時限
+KREJCOVA, Jolana 	クレイチョヴァ ヨラナ 	Wed. 	２時限
+KREJCOVA, Jolana 	クレイチョヴァ ヨラナ 	Fri. 	２時限
+KIM, Shinyoung 	金 信栄 	Wed. 	２時限
+KIM, Moran 	金 牡蘭 	Fri. 	２時限
+プラスコース Plus Courses
+CO1F6 01 Learn French with French Cinema 01 	2 PAGES, Christophe 	Ｃ．パジェス 	Fri. 	１時限
+CO1F7 01 French and Diplomacy I (in French and English) 01 	2 BREFUEL, Romuald 	ブレッフュエル ロミュアルド 	Thur. 	４時限
+CO1F9 01 French and International Relations I (in French and English) 01 	2 BREFUEL, Romuald 	ブレッフュエル ロミュアルド 	Thur. 	３時限
+CO2F2 01 French and translation (level I) in Diplomacy 01 	2 BREFUEL, Romuald 	ブレッフュエル ロミュアルド 	Thur. 	５時限
+CO2F4 01 Academic studies in France & French for Academic Purposes (in French & English) 01 	2 KAWAGUCHI, Yuji 	川口 裕司 	Thur. 	２時限
+DETEY, Sylvain Matthieu Julien 	ドゥテ シルヴァン マッチュウ ジュリアン 	Wed. 	４時限
+DETEY, Sylvain Matthieu Julien 	ドゥテ シルヴァン マッチュウ ジュリアン 	Wed. 	５時限
+First Year Seminar A 	基礎演習A
+01 First Year Seminar A 01 	2 MASUKO, Mayumi 	益子 真由美 	Thur. 	２時限
+03 First Year Seminar A 03 	2 KAWAGUCHI, Yuji 	川口 裕司 	Fri. 	３時限
+04 First Year Seminar A 04 	2 IZUMI, Anna 	泉 杏奈 	Mon. 	３時限
+07 First Year Seminar A 07 	2 OKAMOTO, Koichi 	岡本 公一 	Wed. 	４時限
+11 First Year Seminar A 11 	2 TSUBOUCHI, Jun 	坪内 淳 	Wed. 	４時限
+14 First Year Seminar A 14 	2 AZUMA, Rayna 	東 玲奈 	Tues. 	２時限
+15 First Year Seminar A 15 	2 HIGAKI, Julie 	檜垣 樹理 	Wed. 	３時限
+20 First Year Seminar A 20 	2 FUKUYAMA, Yuko 	福山 佑子 	Tues. 	３時限
+21 First Year Seminar A 21 	2 KUROKAWA, Chiemi 	黒川 智恵美 	Mon. 	３時限
+22 First Year Seminar A 22 	2 KUROKAWA, Chiemi 	黒川 智恵美 	Mon. 	４時限
+23 First Year Seminar A 23 	2 NAKAI, Maki 	中井 真木 	Fri. 	３時限
+24 First Year Seminar A 24 	2 HANZAWA, Keiko 	半沢 蛍子 	Thur. 	４時限
+25 First Year Seminar A 25 	2 ISHIKAWA, Ryuichiro 	石川 竜一郎 	Mon. 	２時限
+27 First Year Seminar A 27 	2 SHINO, Junnosuke 	篠 潤之介 	Wed. 	２時限
+28 First Year Seminar A 28 	2 YOSHIDA, Satoshi 	吉田 知史 	Wed. 	３時限
+29 First Year Seminar A 29 	2 ITO, Takeshi 	伊藤 剛 	Thur. 	２時限
+30 First Year Seminar A 30 	2 AKIBA, Takeshi 	秋葉 丈志 	Mon. 	４時限
+31 First Year Seminar A 31 	2 NAGASAKA, Masumi 	長坂 真澄 	Thur. 	３時限
+32 First Year Seminar A 32 	2 SAKURAI, Keiko 	桜井 啓子 	Wed. 	３時限
+36 First Year Seminar A 36 	2 KATAYAMA, Mikio 	片山 幹生 	Fri. 	３時限
+39 First Year Seminar A 39 	2 UESUGI, Yuji 	上杉 勇司 	Sat. 	２時限
+40 First Year Seminar A 40 	2 KATAOKA, Sadaharu 	片岡 貞治 	Tues. 	３時限
+44 First Year Seminar A 44 	2 MASUKO, Mayumi 	益子 真由美 	Wed. 	３時限
+47 First Year Seminar A 47 	2 YAZAWA, Kakeru 	矢澤 翔 	Tues. 	２時限
+First Year Seminar B 	基礎演習B
+03 First Year Seminar B 03 	2 NAKAMURA, Chie 	中村 智栄 	Thur. 	２時限
+04 First Year Seminar B 04 	2 HIRASAWA, Caroline 	Ｃ．ヒラサワ 	Thur. 	２時限
+06 First Year Seminar B 06 	2 MANNING, Julian 	マニング ジュリアン 	Mon. 	３時限
+08 First Year Seminar B 08 	2 FIELD, Malcolm 	フィールド マルコム 	Fri. 	３時限
+10 First Year Seminar B 10 	2 TRAN THI NGOC, Phuong 	ジャン ティ ノック フーン 	Wed. 	５時限
+11 First Year Seminar B 11 	2 BACON, Paul Martyn 	ベーコン ポール・マルティン 	Tues. 	３時限
+12 First Year Seminar B 12 	2 TRAN THI NGOC, Phuong 	ジャン ティ ノック フーン 	Thur. 	５時限
+14 First Year Seminar B 14 	2 YAMASHITA, Hikaru 	山下 光 	Wed. 	４時限
+16 First Year Seminar B 16 	2 SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Mon. 	３時限
+18 First Year Seminar B 18 	2 KATO, Junko 	加藤 順子 	Tues. 	３時限
+23 First Year Seminar B 23 	2 TSUKADA, Yuichi 	塚田 雄一 	Tues. 	３時限
+25 First Year Seminar B 25 	2 KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Mon. 	３時限
+27 First Year Seminar B 27 	2 MITANI, Junko 	三谷 純子 	Tues. 	３時限
+28 First Year Seminar B 28 	2 MITANI, Junko 	三谷 純子 	Tues. 	２時限
+32 First Year Seminar B 32 	2 SAKAMOTO, Azumi 	阪本 杏実 	Tues. 	５時限
+35 First Year Seminar B 35 	2 BERNARD, Rosemarie 	ベルナール ローズマリー 	Wed. 	３時限
+37 First Year Seminar B 37 	2 KAMINISHI, Yuta 	上西 雄太 	Thur. 	２時限
+48 First Year Seminar B 48 	2 NAMAI, Kenichi 	生井 健一 	Tues. 	３時限
+49 First Year Seminar B 49 	2 MORIYAMA, Hiizu 	森山 秀 	Wed. 	３時限
+39 First Year Seminar B 39 	2 MANNING, Julian 	マニング ジュリアン 	Mon. 	４時限
+40 First Year Seminar B 40 	2 TRAN THI NGOC, Phuong 	ジャン ティ ノック フーン 	Wed. 	３時限
+43 First Year Seminar B 43 	2 TRAN THI NGOC, Phuong 	ジャン ティ ノック フーン 	Tues. 	５時限
+44 First Year Seminar B 44 	2 DIMMER, Christian 	ディマ クリスティアン 	Thur. 	３時限
+45 First Year Seminar B 45 	2 AOTANI, Yuko 	青谷 優子 	Tues. 	３時限
+Intermediate Seminar 	中級演習
+02 Intermediate Seminar 02 	2 BACON, Paul Martyn 	ベーコン ポール・マルティン 	Tues. 	５時限
+03 Intermediate Seminar 03 	2 DAIMON, Leo 	大門 怜央 	Sat. 	４時限
+04 Intermediate Seminar 04 	2 ITO, Takeshi 	伊藤 剛 	Thur. 	４時限
+05 Intermediate Seminar 05 	2 HIGAKI, Julie 	檜垣 樹理 	Tues. 	３時限
+06 Intermediate Seminar 06 	2 OWADA, Eiko 	大和田 英子 	Tues. 	３時限
+07 Intermediate Seminar 07 	2 KATAOKA, Sadaharu 	片岡 貞治 	Tues. 	４時限
+08 Intermediate Seminar 08 	2 OKAMOTO, Koichi 	岡本 公一 	Thur. 	３時限
+11 Intermediate Seminar 11 	2 DIMMER, Christian 	ディマ クリスティアン 	Fri. 	３時限
+12 Intermediate Seminar 12 	2 SAKURAI, Keiko 	桜井 啓子 	Thur. 	２時限
+13 Intermediate Seminar 13 	2 MASUKO, Mayumi 	益子 真由美 	Wed. 	４時限
+14 Intermediate Seminar 14 	2 YOSHIDA, Satoshi 	吉田 知史 	Wed. 	４時限
+15 Intermediate Seminar 15 	2 POKARIER, Christopher J 	ポカリア クリストファー 	Wed. 	２時限
+16 Intermediate Seminar 16 	2 FUKUYAMA, Yuko 	福山 佑子 	Wed. 	３時限
+17 Intermediate Seminar 17 	2 HIGAKI, Julie 	檜垣 樹理 	Tues. 	４時限
+18 Intermediate Seminar 18 	2 IKESHIMA, Taisaku 	池島 大策 	Thur. 	１時限
+19 Intermediate Seminar 19 	2 NAKAMURA, Chie 	中村 智栄 	Thur. 	３時限
+20 Intermediate Seminar 20 	2 BAAK, Saang Joon 	バク サンジュン 	Mon. 	５時限
+21 Intermediate Seminar 21 	2 AKIBA, Takeshi 	秋葉 丈志 	Tues. 	３時限
+22 Intermediate Seminar 22 	2 UCHIDA, Akiko 	内田 亮子 	Thur. 	２時限
+25 Intermediate Seminar 25 	2 NAGASAKA, Masumi 	長坂 真澄 	Wed. 	３時限
+27 Intermediate Seminar 27 	2 ISHIKAWA, Terukichi 	石川 輝吉 	Thur. 	２時限
+29 Intermediate Seminar 29 	2 FIELD, Malcolm 	フィールド マルコム 	Thur. 	４時限
+31 Intermediate Seminar 31 	2 KUROKAWA, Chiemi 	黒川 智恵美 	Thur. 	４時限
+32 Intermediate Seminar 32 	2 HIRASAWA, Caroline 	Ｃ．ヒラサワ 	Wed. 	３時限
+33 Intermediate Seminar 33 	2 MORIYAMA, Hiizu 	森山 秀 	Wed. 	４時限
+34 Intermediate Seminar 34 	2 UESUGI, Yuji 	上杉 勇司 	Sat. 	３時限
+35 Intermediate Seminar 35 	2 DVORAK, Greg 	ドボルザーク グレッグ 	Thur. 	３時限
+37 Intermediate Seminar 37 	2 CABELL, Charles Richard 	カベル チャールズ 	Mon. 	３時限
+38 Intermediate Seminar 38 	2 SATO, Azusa 	佐藤 あずさ 	Mon. 	３時限
+39 Intermediate Seminar 39 	2 CABELL, Charles Richard 	カベル チャールズ 	Mon. 	４時限
+40 Intermediate Seminar 40 	2 MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Fri. 	４時限
+42 Intermediate Seminar 42 	2 SUZUKI, Yuichi 	鈴木 祐一 	Wed. 	４時限
+Introductory Statistics A （Japanese） 	入門統計学 A （日本語）
+01 Introductory Statistics A 01 	2 SHIOMITSU, Eiji 	塩満 栄司 	Wed. 	５時限
+03 Introductory Statistics A 03 	2 NONAKA, Makoto 	野中 誠 	Tues. 	４時限
+04 Introductory Statistics A 04 	2 RIKIMARU, Yuki 	力丸 佑紀 	Thur. 	２時限
+07 Introductory Statistics A 07 	2 TANAKA, Takumi 	田中 碧海 	Fri. 	４時限
+Introductory Statistics A （English） 	入門統計学 A （英語）
+11 Introductory Statistics A 11 	2 XUE, Yujie 	セツ ギョクケツ 	Mon. 	４時限
+12 Introductory Statistics A 12 	2 OTA, Shuhei 	太田 修平 	Fri. 	４時限
+14 Introductory Statistics A 14 	2 SUZUKI, Ayako 	鈴木 彩子 	Thur. 	２時限
+Introductory Statistics B （Japanese） 	入門統計学 B （日本語）
+GE123 	01 Introductory Statistics B 01 	2 OGATA, Hiroaki 	小方 浩明 	Wed. 	４時限
+Introductory Statistics B （English） 	入門統計学 B （英語）
+GE123 	11 Introductory Statistics B 11 	2 OGATA, Hiroaki 	小方 浩明 	Wed. 	３時限
+Introductory Data Science 	入門データサイエンス
+01 Introductory Data Science 01 	2 Wang, Jinfang 	汪 金芳 	Wed. 	５時限
+02 Introductory Data Science 02 	2 SHINO, Junnosuke 	篠 潤之介 	Wed. 	４時限
+03 Introductory Data Science 03 	2 OHMAN, Emily 	オーマン エミリー 	Tues. 	３時限
+04 Introductory Data Science 04 	2 QI, Xin 	斉 欣 	Tues. 	４時限
+05 Introductory Data Science 05 	2 QI, Xin 	斉 欣 	Wed. 	３時限
+06 Introductory Data Science 06 	2 CHEN, Po Lin 	陳 柏霖 	Fri. 	３時限
+07 Introductory Data Science 07 	2 CHUNG, Wookyung 	ジョン ウーギョン 	Fri. 	５時限
+2
+2
+2
+2
+2
+GEA10
+CO191
+CO192
+CO193
+CO194
+CO2F7
+GE131
+GE201
+GEB20
+GEB10
+GEA20
+GE122
+GE122
+Korean IV 01	01
+French Plus 01	01
+German IV 01	01
+Spanish IV 01	01
+Spanish V 01	01
+2 / 4 ページ
+
+-- 2 of 4 --
+
+Introductory Courses 	入門科目
+Life, Environment, Matter and Information
+LE202 	01 Science, Technology and Society 01 	2 SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Tues. 	３時限
+LE203 	01 Life and Environment 	2 YOSHIDA, Satoshi 	吉田 知史 	Tues. 	３時限
+LE206 	01 Dinosaurs: Discovery and Research 	2 HIRAYAMA, Ren 	平山 廉 	Tues. 	４時限
+HIRAYAMA, Ren 	平山 廉 	Fri. 	５時限
+INABA, Satoshi 	稲葉 知士 	Fri. 	５時限
+SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Fri. 	５時限
+YOSHIDA, Satoshi 	吉田 知史 	Fri. 	５時限
+Wang, Jinfang 	汪 金芳 	Fri. 	５時限
+KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Fri. 	５時限
+MI203 	01 Introduction to Physical Science 01 	2 INABA, Satoshi 	稲葉 知士 	Thur. 	３時限
+MI206 	01 Introductory Calculus 01 	2 NAKAJIMA, Shohei 	中島 翔平 	Thur. 	１時限
+MI208 	01 Introduction to Artificial Intelligence 01 	2 QI, Xin 	斉 欣 	Tues. 	３時限
+MI210 	01 Principles of Chemistry 01 	2 KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Wed. 	３時限
+Philosophy, Religion and History
+HI201 	01 Introduction to History 01 	2 STERENBERG, Matthew Kane 	ステレンバーグ マシュー ケイン 	Wed. 	２時限
+HI205 	01 Introduction to Italian Studies 01 	2 FUKUYAMA, Yuko 	福山 佑子 	Mon. 	３時限
+Economy and Business
+EB202 	01 Introduction to Business 01 	2 POKARIER, Christopher J 	ポカリア クリストファー 	Wed. 	４時限
+EB205 	01 Introduction to Microeconomics 01 	2 SHINO, Junnosuke 	篠 潤之介 	Sat. 	２時限
+EB206 	01 Introduction to Macroeconomics 01 	2 BAAK, Saang Joon 	バク サンジュン 	Tues. 	４時限
+EB209 	01 Introduction to Marketing 01 	2 MORIMOTO, Mariko 	森本 真理子 	Wed. 	３時限
+Governance, Peace, Human Rights, and International Relations
+GO207 01 Introduction to Peace and Conflict Studies 01 	2 UESUGI, Yuji 	上杉 勇司 	Thur. 	３時限
+GO210 01 APM- History of Political Ideas: A French Perspective 01 	2 SALA, Adrienne Yumiko 	サラ アドリエンヌ ユミコ 	Fri. 	３時限
+PH201 01 Introduction to Peace and Human Rights 	2 BACON, Paul Martyn 	ベーコン ポール・マルティン 	Wed. 	４時限
+01 Introduction to International Relations 01 	2 BACON, Paul Martyn 	ベーコン ポール・マルティン 	Thur. 	３時限
+03 Introduction to International Relations 03 	2 YAMASHITA, Hikaru 	山下 光 	Wed. 	３時限
+Expression
+EX207 	01 Introduction to Theatre and Drama 	2 FUJIKURA, Takeo 	藤倉 健雄 	Mon. 	５時限
+EX208 	01 Introduction to Film Studies 	2 KAMINISHI, Yuta 	上西 雄太 	Wed. 	３時限
+EX215 	01 Introduction to English Literature 01 	2 TSUKADA, Yuichi 	塚田 雄一 	Wed. 	３時限
+Culture, Mind and Body, Community
+CU201 01 Introduction to Social Anthropology 01 	2 BERNARD, Rosemarie 	ベルナール ローズマリー 	Thur. 	３時限
+CU203 01 Introduction to Communication Studies 01 	2 NISHIMURA, Keiko 	西村 恵子 	Tues. 	３時限
+CU218 01 Introduction to Russian Studies: History, Culture and Contemporary Transformations 01 2 SHADRINA, Elena 	シャドリナ エレナ 	Wed. 	２時限
+CU228 01 APM- Introduction to Contemporary History of the Two Koreas 01 	2 LEE, Bong Kyu 	李 奉奎 	Tues. 	２時限
+CU229 01 Cultural Diversity in Japan and Beyond 01 	2 NISHIMURA, Keiko 	西村 恵子 	Wed. 	３時限
+CU230 01 APM- German Language in Context 01 	2 STEINHAUER, Hagen Fritjof 	シュタインハウアー ハーゲン フリチョフ 	Tues. 	２時限
+MB204 01 Introduction to Psychology: Quantitative Approach 01 	2 AZUMA, Rayna 	東 玲奈 	Tues. 	３時限
+CM201 01 Introduction to Urban Studies 01 	2 DIMMER, Christian 	ディマ クリスティアン 	Thur. 	２時限
+CM203 01 APM- Introduction to Anthropological Methods 01 	2 SHAN, Qi 	シャン チイ 	Wed. 	２時限
+Intermediate Courses 	中級科目
+LE307 	01 Introduction to Environmental Science 	2 KOHRI, Mari 	郡 麻里 	others フルオンデマンド
+KOBAYASHI, Mitsuki 	小林 光木 	Tues. 	４時限
+KOBAYASHI, Mitsuki 	小林 光木 	Fri. 	４時限
+MI319 	01 Modern physics 01 	2 INABA, Satoshi 	稲葉 知士 	Tues. 	３時限
+MI324 	01 Graph Theory 01 	2 KURIKI, Satoshi 	栗木 哲 	Tues. 	４時限
+Wang, Jinfang 	汪 金芳 	Tues. 	３時限
+Wang, Jinfang 	汪 金芳 	Tues. 	４時限
+STERENBERG, Matthew Kane 	ステレンバーグ マシュー ケイン 	Tues. 	３時限
+STERENBERG, Matthew Kane 	ステレンバーグ マシュー ケイン 	Thur. 	３時限
+KATO, Junko 	加藤 順子 	Tues. 	２時限
+KATO, Junko 	加藤 順子 	Fri. 	２時限
+HI314 	01 Historical Survey (Ancient and Medieval Europe) 01 	2 FUKUYAMA, Yuko 	福山 佑子 	Thur. 	２時限
+HI316 	01 A History of Christian-Muslim Relations, c. 600-1500 01 	2 MALLETT, Alexander Philip John 	マレト アレクサンデル フィリップ ジョン 	Sat. 	２時限
+BAAK, Saang Joon 	バク サンジュン 	Mon. 	４時限
+BAAK, Saang Joon 	バク サンジュン 	Wed. 	４時限
+EB341 	01 Cost- Benefit Analysis 01 	2 DAIMON, Leo 	大門 怜央 	others フルオンデマンド
+EB342 	01 Behavioral & Experimental Game Theory 01 	2 ISHIKAWA, Ryuichiro 	石川 竜一郎 	Fri. 	３時限
+EB348 	01 Monetary & Financial Economics 01 	2 ISHIKAWA, Ryuichiro 	石川 竜一郎 	Thur. 	２時限
+KUDO, Hiroko 	工藤 裕子 	Mon. 	４時限
+KUDO, Hiroko 	工藤 裕子 	Mon. 	５時限
+GO330 01 Minorities and the Law in the United States 01 	2 AKIBA, Takeshi 	秋葉 丈志 	Mon. 	３時限
+GO331 01 Comparative Politics: Political Regimes 01 	2 TOYONAGA, Ikuko 	豊永 郁子 	Wed. 	４時限
+GO333 01 Elections and Electoral Systems 01 	2 TOYONAGA, Ikuko 	豊永 郁子 	Thur. 	３時限
+GO334 01 APM- Environmental and Climate Change Policies in France and Japan 01 	2 SALA, Adrienne Yumiko 	サラ アドリエンヌ ユミコ 	Wed. 	４時限
+GO335 01 APM- Anthropology of Labor: Key Issues and Cases 01 	2 SHAN, Qi 	シャン チイ 	Wed. 	４時限
+IKESHIMA, Taisaku 	池島 大策 	Tues. 	３時限
+IKESHIMA, Taisaku 	池島 大策 	Thur. 	２時限
+SHU, Min 	舒 旻 	Tues. 	３時限
+SHU, Min 	舒 旻 	Tues. 	４時限
+IINO, Masakazu 	飯野 公一 	Tues. 	４時限
+IINO, Masakazu 	飯野 公一 	Tues. 	５時限
+MASUKO, Mayumi 	益子 真由美 	Tues. 	３時限
+MASUKO, Mayumi 	益子 真由美 	Tues. 	４時限
+NAMAI, Kenichi 	生井 健一 	Mon. 	４時限
+NAMAI, Kenichi 	生井 健一 	Wed. 	４時限
+01 Applied Linguistics (English) 01 	2 MORIYAMA, Hiizu 	森山 秀 	Mon. 	４時限
+02 Applied Linguistics (English) 02 	2 SUZUKI, Yuichi 	鈴木 祐一 	Wed. 	３時限
+CO321 01 English Phonetics and Phonology 01 	2 KONDO, Mariko 	近藤 眞理子 	Thur. 	２時限
+FUJIKURA, Takeo 	藤倉 健雄 	Mon. 	３時限
+FUJIKURA, Takeo 	藤倉 健雄 	Mon. 	４時限
+EX322 	01 Photography 01 	2 MOONEY, Suzanne 	ムーニー スザンヌ 	Fri. 	２時限
+EX324 	01 American Literary Studies 	2 OWADA, Eiko 	大和田 英子 	Tues. 	１時限
+HADAME, Hiroo 	甚目 裕夫 	Wed. 	４時限
+HADAME, Hiroo 	甚目 裕夫 	Wed. 	５時限
+MIMURA, Kyoko 	三村 京子 	Thur. 	３時限
+MIMURA, Kyoko 	三村 京子 	Thur. 	４時限
+EX335 	01 Video Game Studies 01 	2 BARLEV, Nave 	バーレヴ ナヴェ 	Tues. 	４時限
+HIRASAWA, Caroline 	Ｃ．ヒラサワ 	Tues. 	３時限
+HIRASAWA, Caroline 	Ｃ．ヒラサワ 	Thur. 	３時限
+EX346 	01 Literary Theory 01 	2 TSUKADA, Yuichi 	塚田 雄一 	Wed. 	４時限
+ASO, Takashi 	麻生 享志 	Thur. 	２時限
+ASO, Takashi 	麻生 享志 	Thur. 	３時限
+DVORAK, Greg 	ドボルザーク グレッグ 	Wed. 	４時限
+DVORAK, Greg 	ドボルザーク グレ Gregg 	Wed. 	５時限
+CU310 01 Culture in Context 4th 	2 FIELD, Malcolm 	フィールド マルコム 	Thur. 	３時限
+CU311 01 Culture and Law 01 	2 RHEE, Maji Christine 	リー マージ クリスティン 	Wed. 	１時限
+BERNARD, Rosemarie 	ベルナール ローズマリー 	Fri. 	３時限
+BERNARD, Rosemarie 	ベルナール ローズマリー 	Fri. 	４時限
+OHMAN, Emily 	オーマン エミリー 	Thur. 	２時限
+OHMAN, Emily 	オーマン エミリー 	others フルオンデマンド
+CU335 01 The German-Speaking Countries: Language and Society 01 	2 SCHARLOTH, Joachim 	シャルロート ヨアヒム 	Thur. 	３時限
+CU340 01 APM- International Relations in the 20th Century: A Korean Perspective 01 	2 LEE, Bong Kyu 	李 奉奎 	Wed. 	４時限
+CU341 01 APM- Public and Citizen Participation in French Climate Change Debates 01 	2 SALA, Adrienne Yumiko 	サラ アドリエンヌ ユミコ 	Wed. 	３時限
+CU344 01 Materialities of Communication Media 01 	2 NISHIMURA, Keiko 	西村 恵子 	Mon. 	４時限
+CU345 01 Media and Popular Culture 01 	2 NISHIMURA, Keiko 	西村 恵子 	Tues. 	４時限
+CU346 01 APM- Selected Topics in Korean Society 01 	2 LEE, Bong Kyu 	李 奉奎 	Wed. 	２時限
+CU347 01 APM- German Communicative Genres and Texttypes in Everyday Life and Academic
+Discourse 01 	2 STEINHAUER, Hagen Fritjof 	シュタインハウアー ハーゲン フリチョフ 	Tues. 	３時限
+CU348 01 APM- Youth Culture and Language in Germany (Jugendkultur und Jugendsprache in
+Deutschland) 01 	2 STEINHAUER, Hagen Fritjof 	シュタインハウアー ハーゲン フリチョフ 	Mon. 	３時限
+CU349 01 K-Culture in Text 01 	2 RHEE, Maji Christine 	リー マージ クリスティン 	Wed. 	２時限
+AZUMA, Rayna 	東 玲奈 	Thur. 	２時限
+AZUMA, Rayna 	東 玲奈 	Thur. 	３時限
+CM305 01 APM- Anthropology and Chinese Studies in the 20th Century 01 	2 SHAN, Qi 	シャン チイ 	Thur. 	３時限
+4
+4
+4
+2
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+LE209
+IR201
+CU330
+CU333
+IR303
+IR312
+CO308
+CO309
+CO310
+EX325
+EX334
+EX344
+CU301
+CU302
+CO318
+MI315
+MI328
+HI303
+HI304
+EB302
+GO303
+MB304
+EX321
+Invitation to Natural Sciences 01	01
+Historical Survey (The Americas) 01	01
+Macroeconomics	01
+Public Management, Public Service and Local Government	01
+Intermediate Statistics A 01	01
+Intermediate Data Science 01	01
+Historical Survey (Europe) 01	01
+Pragmatics and Semantics	01
+English Syntax 01	01
+The Art of Mime and Pantomime	01
+International Law	01
+International Political Economy 01	01
+Sociolinguistics	01
+Comparative Cultural Studies 01	01
+Gender Studies 01	01
+Anthropology of Religion 01	01
+Opera: History and Its Development 01	01
+Art and Lifestyle of Japan: as seen through Two Centuries of Japanese Arts and Crafts
+01	
+01
+Japanese Art History 01	01
+Python Programming for Digital Humanities 01	01
+Cognitive Psychology	01
+3 / 4 ページ
+
+-- 3 of 4 --
+
+Advanced Courses 	上級科目
+HIRAYAMA, Ren 	平山 廉 	Mon. 	３時限
+HIRAYAMA, Ren 	平山 廉 	Mon. 	４時限
+UCHIDA, Akiko 	内田 亮子 	Mon. 	３時限
+UCHIDA, Akiko 	内田 亮子 	Mon. 	４時限
+KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Mon. 	２時限
+KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Wed. 	２時限
+MI401 	01 Computerized Society 01 	2 QI, Xin 	斉 欣 	Wed. 	４時限
+INABA, Satoshi 	稲葉 知士 	Wed. 	３時限
+INABA, Satoshi 	稲葉 知士 	Wed. 	４時限
+SCHUSTER, Alfons Josef 	シュスター アルフォンズ ジョセフ 	Tues. 	２時限
+SCHUSTER, Alfons Josef 	シュスター アルフォンズ ジョセフ 	Fri. 	２時限
+NAGASAKA, Masumi 	長坂 真澄 	Tues. 	３時限
+NAGASAKA, Masumi 	長坂 真澄 	Tues. 	４時限
+SAKURAI, Keiko 	桜井 啓子 	Thur. 	３時限
+SAKURAI, Keiko 	桜井 啓子 	Fri. 	３時限
+OKAMOTO, Koichi 	岡本 公一 	Wed. 	３時限
+OKAMOTO, Koichi 	岡本 公一 	Fri. 	３時限
+SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Mon. 	５時限
+SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Tues. 	５時限
+NAKAI, Maki 	中井 真木 	Tues. 	１時限
+NAKAI, Maki 	中井 真木 	Fri. 	１時限
+EB431 	01 Fiscal Issues on Social Security 01 	2 KOOK, Joongho 	鞠 重鎬 	Tues. 	５時限
+POKARIER, Christopher J 	ポカリア クリストファー 	Thur. 	２時限
+POKARIER, Christopher J 	ポカリア クリストファー 	Thur. 	３時限
+SUZUKI, Ayako 	鈴木 彩子 	Mon. 	３時限
+SUZUKI, Ayako 	鈴木 彩子 	Sat. 	２時限
+DAIMON, Leo 	大門 怜央 	Sat. 	１時限
+DAIMON, Leo 	大門 怜央 	Sat. 	２時限
+EB447 	01 Modern Korean Economic Development 01 	2 KIM, Sei Wan 	金 世浣 	Fri. 	３時限
+SEUL, Timothy 	スール ティモシー 	Wed. 	３時限
+SEUL, Timothy 	スール ティモシー 	Thur. 	３時限
+GO425 01 Comparative Politics: Democracies 01 	2 TOYONAGA, Ikuko 	豊永 郁子 	Wed. 	３時限
+GO426 01 Political Parties and Party Systems 01 	2 TOYONAGA, Ikuko 	豊永 郁子 	Tues. 	３時限
+UESUGI, Yuji 	上杉 勇司 	Fri. 	２時限
+UESUGI, Yuji 	上杉 勇司 	Fri. 	３時限
+GO428 01 APM- Advanced Perspectives on Women in Politics: A Comparative Study 01 	2 SALA, Adrienne Yumiko 	サラ アドリエンヌ ユミコ 	Fri. 	４時限
+GO429 01 APM- Germany as a Democracy at risk 01 	2 STEINHAUER, Hagen Fritjof 	シュタインハウアー ハーゲン フリチョフ 	Mon. 	４時限
+KATAOKA, Sadaharu 	片岡 貞治 	Wed. 	４時限
+KATAOKA, Sadaharu 	片岡 貞治 	Wed. 	５時限
+MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Mon. 	１時限
+MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Fri. 	１時限
+KONDO, Mariko 	近藤 眞理子 	Mon. 	２時限
+KONDO, Mariko 	近藤 眞理子 	Mon. 	３時限
+KOBAYASHI, Kazue 	小林 一枝 	Wed. 	３時限
+KOBAYASHI, Kazue 	小林 一枝 	Wed. 	４時限
+KAMINISHI, Yuta 	上西 雄太 	Tues. 	３時限
+KAMINISHI, Yuta 	上西 雄太 	Thur. 	３時限
+OWADA, Eiko 	大和田 英子 	Mon. 	３時限
+OWADA, Eiko 	大和田 英子 	Mon. 	４時限
+01 Translation as Creative Writing 01 	2 KARASHIMA, David 	辛島 デイヴィッド 	Tues. 	３時限
+02 Translation as Creative Writing 02 	2 KARASHIMA, David 	辛島 デイヴィッド 	Tues. 	４時限
+RAESIDE, James Matthew 	レイサイド ジェームス マシュ 	Wed. 	２時限
+RAESIDE, James Matthew 	レイサイド ジェームス マシュ 	Wed. 	４時限
+EX466 	01 The Translation, Production and Reception of Contemporary Japanese Literature for the
+Anglophone World and Beyond 01 	2 KARASHIMA, David 	辛島 デイヴィッド 	Wed. 	３時限
+CU453 01 Chinese Diaspora and Globalization 01 	2 CHEN, Tien Shi 	陳 天璽 	Fri. 	４時限
+CU469 01 Topics in Spanish America (Spanish) 01 	2 MATO, Shigeko 	間藤 茂子 	Wed. 	３時限
+CU471 01 APM- Intellectual History of Contemporary Korea 01 	2 LEE, Bong Kyu 	李 奉奎 	Tues. 	４時限
+CM405 01 Urban Studies 	2 DIMMER, Christian 	ディマ クリスティアン 	Fri. 	２時限
+CM407 01 APM- Anthropological Appreciation of Chinese Cinema 01 	2 SHAN, Qi 	シャン チイ 	Thur. 	５時限
+Advanced Seminars 	上級演習
+01 Seminar on Life and Environment 01 	2 HIRAYAMA, Ren 	平山 廉 	Wed. 	３時限
+02 Seminar on Life and Environment 02 	2 YOSHIDA, Satoshi 	吉田 知史 	Wed. 	５時限
+03 Seminar on Life and Environment 03 	2 UCHIDA, Akiko 	内田 亮子 	Wed. 	２時限
+04 Seminar on Life and Environment 04 	2 KHATIWALA, Samar Prakash 	カティワラ サマー プラカッシュ 	Wed. 	５時限
+02 Seminar on Matter and Information 02 	2 INABA, Satoshi 	稲葉 知士 	Wed. 	５時限
+03 Seminar on Matter and Information 03 	2 SIDOLI, Nathan Camillo 	シドリ ネイサン カミッロ 	Wed. 	５時限
+05 Seminar on Matter and Information 05 	2 Wang, Jinfang 	汪 金芳 	Wed. 	２時限
+01 Seminar on Philosophy and Religion 01 	2 NAGASAKA, Masumi 	長坂 真澄 	Wed. 	４時限
+02 Seminar on Philosophy and Religion 02 	2 SAKURAI, Keiko 	桜井 啓子 	Fri. 	４時限
+04 Seminar on Philosophy and Religion 04 	2 HIGAKI, Julie 	檜垣 樹理 	Wed. 	４時限
+02 Seminar on History 02 	2 OKAMOTO, Koichi 	岡本 公一 	Fri. 	４時限
+03 Seminar on History 03 	2 STERENBERG, Matthew Kane 	ステレンバーグ マシュー ケイン 	Wed. 	４時限
+05 Seminar on History 05 	2 FUKUYAMA, Yuko 	福山 佑子 	Tues. 	２時限
+06 Seminar on History 06 	2 NAKAI, Maki 	中井 真木 	Fri. 	４時限
+01 Seminar on Economy and Business 01 	2 BAAK, Saang Joon 	バク サンジュン 	Tues. 	５時限
+02 Seminar on Economy and Business 02 	2 DAIMON, Leo 	大門 怜央 	Fri. 	５時限
+03 Seminar on Economy and Business 03 	2 ISHIKAWA, Ryuichiro 	石川 竜一郎 	Fri. 	４時限
+05 Seminar on Economy and Business 05 	2 POKARIER, Christopher J 	ポカリア クリストファー 	Wed. 	５時限
+06 Seminar on Economy and Business 06 	2 SHADRINA, Elena 	シャドリナ エレナ 	Wed. 	４時限
+07 Seminar on Economy and Business 07 	2 MORIMOTO, Mariko 	森本 真理子 	Mon. 	３時限
+08 Seminar on Economy and Business 08 	2 SUZUKI, Ayako 	鈴木 彩子 	Mon. 	２時限
+09 Seminar on Economy and Business 09 	2 SHINO, Junnosuke 	篠 潤之介 	Wed. 	５時限
+01 Seminar on Governance 01 	2 SEUL, Timothy 	スール ティモシー 	Wed. 	４時限
+03 Seminar on Governance 03 	2 AKIBA, Takeshi 	秋葉 丈志 	Tues. 	４時限
+06 Seminar on Governance 06 	2 UESUGI, Yuji 	上杉 勇司 	Fri. 	４時限
+01 Seminar on International Relations 01 	2 BACON, Paul Martyn 	ベーコン ポール・マルティン 	Fri. 	３時限
+02 Seminar on International Relations 02 	2 IKESHIMA, Taisaku 	池島 大策 	Tues. 	２時限
+03 Seminar on International Relations 03 	2 KATAOKA, Sadaharu 	片岡 貞治 	Tues. 	５時限
+06 Seminar on International Relations 06 	2 SHU, Min 	舒 旻 	Thur. 	３時限
+02 Seminar on Communication 02 	2 MORIYAMA, Hiizu 	森山 秀 	Mon. 	５時限
+05 Seminar on Communication 05 	2 NAMAI, Kenichi 	生井 健一 	Wed. 	３時限
+06 Seminar on Communication 06 	2 IINO, Masakazu 	飯野 公一 	Wed. 	５時限
+07 Seminar on Communication 07 	2 KONDO, Mariko 	近藤 眞理子 	Tues. 	２時限
+08 Seminar on Communication 08 	2 MASUKO, Mayumi 	益子 真由美 	Thur. 	３時限
+09 Seminar on Communication 09 	2 MUEHLEISEN, Victoria L. 	ミューライゼン ヴィクトリア 	Fri. 	２時限
+12 Seminar on Communication 12 	2 DETEY, Sylvain Matthieu Julien 	ドゥテ シルヴァン マッチュウ ジュリアン 	Thur. 	３時限
+13 Seminar on Communication 13 	2 SATO, Azusa 	佐藤 あずさ 	Thur. 	２時限
+14 Seminar on Communication 14 	2 NAKAMURA, Chie 	中村 智栄 	Fri. 	３時限
+15 Seminar on Communication 15 	2 SUZUKI, Yuichi 	鈴木 祐一 	Fri. 	３時限
+07 Seminar on Expression 07 	2 HIRASAWA, Caroline 	Ｃ．ヒラサワ 	Tues. 	２時限
+09 Seminar on Expression 09 	2 KARASHIMA, David 	辛島 デイヴィッド 	Wed. 	４時限
+10 Seminar on Expression 10 	2 OWADA, Eiko 	大和田 英子 	Tues. 	２時限
+13 Seminar on Expression 13 	2 TSUKADA, Yuichi 	塚田 雄一 	Tues. 	４時限
+01 Seminar on Culture 01 	2 ASO, Takashi 	麻生 享志 	Fri. 	２時限
+02 Seminar on Culture 02 	2 BERNARD, Rosemarie 	ベルナール ローズマリー 	Wed. 	４時限
+05 Seminar on Culture 05 	2 DVORAK, Greg 	ドボルザーク グレ Gregg 	Tues. 	５時限
+07 Seminar on Culture 07 	2 SCHARLOTH, Joachim 	シャルロート ヨアヒム 	Wed. 	３時限
+11 Seminar on Culture 11 	2 DIMMER, Christian 	ディマ クリスティアン 	Fri. 	５時限
+13 Seminar on Culture 13 	2 RHEE, Maji Christine 	リー マージ クリスティン 	Wed. 	３時限
+14 Seminar on Culture 14 	2 YOSHIMOTO, Mitsuhiro 	吉本 光宏 	Wed. 	４時限
+15 Seminar on Culture 15 	2 MATO, Shigeko 	間藤 茂子 	Wed. 	５時限
+17 Seminar on Culture 17 	2 CHEN, Tien Shi 	陳 天璽 	Wed. 	４時限
+18 Seminar on Culture 18 	2 OHMAN, Emily 	オーマン エミリー 	Tues. 	２時限
+19 Seminar on Culture 19 	2 NISHIMURA, Keiko 	西村 恵子 	Wed. 	４時限
+MB501 01 Seminar on Mind and Body 01 	2 AZUMA, Rayna 	東 玲奈 	Tues. 	４時限
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+4
+EX431
+EX446
+HI424
+EB434
+EB438
+EB443
+GO413
+GO427
+MI409
+MI413
+PR414
+PR417
+HI402
+HI419
+LE406
+LE409
+LE410
+CU501
+EX501
+CO501
+EB501
+GO501
+IR501
+PR501
+HI501
+EX459
+EX464
+LE501
+MI501
+IR403
+CO421
+CO457
+EX422
+Evolutionary Biology 01	01
+Virtual Earth: Simulating the Environment 01	01
+Differential Equations 01	01
+Paleoherpetology 01	01
+01
+International History of War and Peace	01
+History of Modern Earth and Life Sciences 01	01
+History of Premodern Japan 01	01
+Advanced Calculus 01	01
+History of Metaphysics and of its Critique 01	01
+Political Movements in the Islamic World 01	01
+Special Topics in Cinema and Media Studies	01
+Reading American Literature 01	01
+Translation Studies: Topics in Translation Theory 01	01
+Selected Topics in Applied Linguistics 01	01
+Acoustics and Auditory Phonetics	01
+Cultural Interaction between East and West in Art	01
+Ancient Political Thought 01	01
+Peacebuilding and Humanitarian Assistance 01	01
+European Integration and Foreign Policy	01
+Enterprise and Governance 01	01
+Industrial Organization 01	01
+Economic Development 01
+4 / 4 ページ
+
+-- 4 of 4 --
+
