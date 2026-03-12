@@ -18,6 +18,14 @@ const DAY_LABEL: Record<string, string> = {
 
 export const CourseCard: React.FC<Props> = ({ course, picked, onTogglePick }) => {
   const { code, classNumber, titleEn, titleJa, credits, area, subArea } = course;
+  const displayTitle = (() => {
+    const t = titleEn.trim();
+    const cls = classNumber.trim();
+    if (!cls) return t;
+    const escaped = cls.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const endsWithClass = new RegExp(`(?:\\s|　)${escaped}$`).test(t);
+    return endsWithClass ? t : `${t} ${cls}`;
+  })();
 
   const teachers =
     course.instructors.length > 0
@@ -45,7 +53,7 @@ export const CourseCard: React.FC<Props> = ({ course, picked, onTogglePick }) =>
             {code}
           </div>
           <h2 className="mt-1 text-[13px] font-semibold leading-snug text-slate-900 md:text-sm">
-            {titleEn} {classNumber}
+            {displayTitle}
           </h2>
           {titleJa && (
             <p className="mt-0.5 line-clamp-1 text-[11px] text-slate-500">{titleJa}</p>
